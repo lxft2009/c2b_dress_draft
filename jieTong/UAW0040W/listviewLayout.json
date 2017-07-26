@@ -1,0 +1,34 @@
+[
+	{
+	    "id": "799229431418720256",
+	    "type": "listviewLayout",
+	    "appid": "mybaas",
+	    "parentid": "799197666612350976",
+	    "objectName": "UAW0040W",
+	    "description": "listview布局",
+	    "layoutJson": {
+	    	"entity":"UAW0040W",
+	        "entityId":"799197666612350976",
+	        "configId":"15ae9c06-6b47-459d-93ca-0d91d2d69386",
+	        "label":"列表视图"
+	    },
+	    "category":"listview"
+	},
+	{
+	    "id": "799229791839457280",
+	    "type": "listviewLayout",
+	    "appid": "mybaas",
+	    "parentid": "799197666612350976",
+	    "objectName": "UAW0040W",
+	    "description": "settingbutton布局",
+	    "layoutJson": {
+	    	"label": "列表视图",
+        "parentEntity":"UAW0040W",
+        "parentEntityId":"799197666612350976",
+        "configId":"15ae9c06-6b47-459d-93ca-0d91d2d69386",
+        "entity":"listView",
+        "entityId":"799197666612350976"
+	    },
+	    "category":"setting"
+	}
+]

@@ -1,0 +1,67 @@
+[
+{
+  "id": "00SAQWF100800",
+  "parentid": "00SA6C39G0800",
+  "appid": "dataAcquisition",
+  "objectName": "mesDataAcquisition",
+  "type": "searchLayout",
+  "name": "MES数据采集查询布局",
+  "description": "",
+  "layoutJson": {
+  	"configId": "f9da4258-66a7-443e-a7b6-f88318db1bb3",
+    "entity": "mesDataAcquisition",
+    "entityId": "00SA6C39G0800",
+    "columns": [
+        {
+            "config": {
+                "size": "small"
+            },
+            "label": "生产订单ID",
+            "name": "workOrderID"
+        },
+        {
+            "config": {
+                "size": "small"
+            },
+            "label": "产线ID",
+            "name": "lineID"
+        },
+        {
+            "config": {
+                "size": "small"
+            },
+            "label": "工序ID",
+            "name": "processID"
+        },
+        {
+            "config": {
+                "size": "small"
+            },
+            "label": "开始人员",
+            "name": "startUserID"
+        },
+        {
+            "config": {
+                "size": "small"
+            },
+            "label": "开始时间",
+            "name": "startDatetime"
+        },
+        {
+            "config": {
+                "size": "small"
+            },
+            "label": "结束人员",
+            "name": "endUserID"
+        },
+        {
+            "config": {
+                "size": "small"
+            },
+            "label": "结束时间",
+            "name": "endDatetime"
+        }
+    ]
+	}
+  }
+]

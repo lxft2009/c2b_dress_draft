@@ -1,0 +1,32 @@
+[
+    {
+        "id": "00RNY2MHR0800",
+        "parentid": "00RN2QVZ80800",
+        "appid": "material",
+        "objectName": "rdsMaterialType",
+        "type": "searchLayout",
+        "name": "rdsMaterialTypeSearchLayout",
+        "description": "物料分类查询布局",
+        "layoutJson": {
+            "configId": "ca15e479-8a25-4ecd-a9ff-64e9d286bc93",
+            "entity": "rdsMaterialType",
+            "entityId": "00RN2QVZ80800",
+            "columns": [
+                {
+                    "config": {
+                        "size": "small"
+                    },
+                    "label": "物料分类编码",
+                    "name": "materialTypeCode"
+                },
+                {
+                    "config": {
+                        "size": "small"
+                    },
+                    "label": "物料分类名称",
+                    "name": "materialTypeName"
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,16 @@
+[
+    {
+		"id":"799231303206572032",
+        "type": "tableLayout",
+        "appid": "mybaas",
+        "parentid": "799197666612350976",
+        "name": "UAW0040WGridLayout",
+        "objectName": "UAW0040W",
+        "layoutJson": {
+                "configId": "15ae9c06-6b47-459d-93ca-0d91d2d69386",
+                "entity": "UAW0040W",
+                "entityId": "799197666612350976"
+         },
+        "description": "设备故障现象与原因tableLayout定义"
+    }
+]

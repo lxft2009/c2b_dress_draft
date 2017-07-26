@@ -1,0 +1,46 @@
+[
+{
+  "id": "799230014687023104",
+  "parentid": "799197666612350976",
+  "appid": "mybaas",
+  "objectName": "UAW0040W",
+  "type": "searchLayout",
+  "name": "设备故障现象与原因查询布局",
+  "description": "",
+  "layoutJson": {
+  	"configId": "15ae9c06-6b47-459d-93ca-0d91d2d69386",
+    "entity": "UAW0040W",
+    "entityId": "799197666612350976",
+    "columns": [
+        {
+            "config": {
+                "size": "small"
+            },
+            "label": "工段",
+            "name": "workshopSection"
+        },
+        {
+            "config": {
+                "size": "small"
+            },
+            "label": "不启动代码",
+            "name": "notStartCode"
+        },
+        {
+            "config": {
+                "size": "small"
+            },
+            "label": "现象代码",
+            "name": "appearanceCode"
+        },
+        {
+            "config": {
+                "size": "small"
+            },
+            "label": "现象详情",
+            "name": "appearanceDetail"
+        }
+    ]
+	}
+  }
+]

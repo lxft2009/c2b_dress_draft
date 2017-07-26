@@ -1,0 +1,122 @@
+﻿[
+	{
+		"objectName": "UAW0040W",
+		"fieldName": "workshopSection",
+		"type": "validate",
+		"appid": "mybaas",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			},
+			"size":{
+				"max":50
+			}
+			
+		}
+	},
+	{
+		"objectName": "UAW0040W",
+		"fieldName": "appearanceCode",
+		"type": "validate",
+		"appid": "mybaas",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			},
+			"size":{
+				"max":50
+			}
+			
+		}
+	},
+	{
+		"objectName": "UAW0040W",
+		"fieldName": "appearanceDetail",
+		"type": "validate",
+		"appid": "mybaas",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			},
+			"size":{
+				"max":50
+			}
+			
+		}
+	},
+	{
+		"objectName": "UAW0040W",
+		"fieldName": "notStartCode",
+		"type": "validate",
+		"appid": "mybaas",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			},
+			"size":{
+				"max":50
+			}
+			
+		}
+	},
+	{
+		"objectName": "UAW0040W",
+		"fieldName": "notStartReason",
+		"type": "validate",
+		"appid": "mybaas",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			},
+			"size":{
+				"max":50
+			}
+			
+		}
+	},
+	{
+		"objectName": "UAW0040W",
+		"fieldName": "remark",
+		"type": "validate",
+		"appid": "mybaas",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			},
+			"size":{
+				"max":50
+			}
+			
+		}
+	},
+	{
+		"objectName": "UAW0040W",
+		"fieldName": "add_userId",
+		"type": "validate",
+		"appid": "mybaas",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			},
+			"size":{
+				"max":50
+			}
+			
+		}
+	},
+	{
+		"objectName": "UAW0040W",
+		"fieldName": "add_Date",
+		"type": "validate",
+		"appid": "mybaas",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			},
+			"size":{
+				"max":50
+			}
+			
+		}
+	}
+]

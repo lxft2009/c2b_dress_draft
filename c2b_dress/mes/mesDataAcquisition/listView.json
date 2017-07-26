@@ -1,0 +1,103 @@
+[{
+    "id": "00SANKR800800",
+    "type": "listView",
+    "appid": "dataAcquisition",
+    "parentid": "00SA6C39G0800",
+    "name": "mesDataAcquisitionListView",
+    "objectName": "mesDataAcquisition",
+    "description": "MES数据采集列表描述",
+    "label": "MES数据采集列表",
+    "layoutJson": {
+        "whereCondition": {},
+        "columns": [
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "workOrderID",
+                "ascendingLabel": "Z-A",
+                "label": "生产订单ID",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "workOrderID"
+            },
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "lineID",
+                "ascendingLabel": "Z-A",
+                "label": "产线ID",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "lineID"
+            },
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "processID",
+                "ascendingLabel": "Z-A",
+                "label": "工序ID",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "processID"
+            },
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "startUserID",
+                "ascendingLabel": "Z-A",
+                "label": "开始人员",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "startUserID"
+            },
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "startDatetime",
+                "ascendingLabel": "Z-A",
+                "label": "开始时间",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "startDatetime"
+            },
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "endUserID",
+                "ascendingLabel": "Z-A",
+                "label": "结束人员",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "endUserID"
+            },
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "endDatetime",
+                "ascendingLabel": "Z-A",
+                "label": "结束时间",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "endDatetime"
+            }
+        ],
+        "scope": "everything",
+        "limit": 10,
+        "orderBy": [],
+        "page": 1
+    }
+}]

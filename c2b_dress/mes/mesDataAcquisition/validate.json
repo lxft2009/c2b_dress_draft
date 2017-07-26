@@ -1,0 +1,108 @@
+﻿[
+	{
+		"objectName": "mesDataAcquisition",
+		"fieldName": "workOrderID",
+		"type": "validate",
+		"appid": "dataAcquisition",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			},
+			"size":{
+				"max":50
+			}
+			
+		}
+	},
+	{
+		"objectName": "mesDataAcquisition",
+		"fieldName": "lineID",
+		"type": "validate",
+		"appid": "dataAcquisition",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			},
+			"size":{
+				"max":50
+			}
+			
+		}
+	},
+	{
+		"objectName": "mesDataAcquisition",
+		"fieldName": "processID",
+		"type": "validate",
+		"appid": "dataAcquisition",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			},
+			"size":{
+				"max":50
+			}
+			
+		}
+	},
+	{
+		"objectName": "mesDataAcquisition",
+		"fieldName": "startUserID",
+		"type": "validate",
+		"appid": "dataAcquisition",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			},
+			"size":{
+				"max":50
+			}
+			
+		}
+	},
+	{
+		"objectName": "mesDataAcquisition",
+		"fieldName": "startDatetime",
+		"type": "validate",
+		"appid": "dataAcquisition",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			},
+			"size":{
+				"max":50
+			}
+			
+		}
+	},
+	{
+		"objectName": "mesDataAcquisition",
+		"fieldName": "endUserID",
+		"type": "validate",
+		"appid": "dataAcquisition",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			},
+			"size":{
+				"max":50
+			}
+			
+		}
+	},
+	{
+		"objectName": "mesDataAcquisition",
+		"fieldName": "endDatetime",
+		"type": "validate",
+		"appid": "dataAcquisition",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			},
+			"size":{
+				"max":50
+			}
+			
+		}
+	}
+	
+]

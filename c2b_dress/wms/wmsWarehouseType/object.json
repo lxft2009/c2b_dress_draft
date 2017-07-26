@@ -1,0 +1,38 @@
+[
+    {
+        "id": "00RN2QVZ80800",
+        "appid": "material",
+        "type": "metaEntity",
+        "name": "rdsMaterialType",
+        "mruEnabled": "true",
+        "updateable": "false",
+        "activateable": "true",
+        "deprecatedAndHidden": "false",
+        "layoutable": "true",
+        "custom": "true",
+        "deletable": "true",
+        "description": "物料分类",
+        "replicateable": "false",
+        "undeletable": "false",
+        "label": "物料分类表",
+        "keyPrefix": "",
+        "searchable": "true",
+        "queryable": "true",
+        "mergeable": "false",
+        "urls": {
+            "layout": "",
+            "searchLayout": "",
+            "compactLayout": "",
+            "listView": "",
+            "action": "",
+            "validate": ""
+        },
+        "createable": "true",
+        "feedEnabled": "",
+        "retrieveable": "true",
+        "customSetting": "true",
+        "category": "user",
+        "labelPlural": "",
+        "triggerable": "true"
+    }
+]

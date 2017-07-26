@@ -1,0 +1,115 @@
+[{
+    "id": "799228574644047872",
+    "type": "listView",
+    "appid": "mybaas",
+    "parentid": "799197666612350976",
+    "name": "UAW0040WListView",
+    "objectName": "UAW0040W",
+    "description": "设备故障现象与原因列表描述",
+    "label": "设备故障现象与原因列表",
+    "layoutJson": {
+        "whereCondition": {},
+        "columns": [
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "workshopSectionLabel",
+                "ascendingLabel": "Z-A",
+                "label": "工段",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "workshopSectionLabel"
+            },
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "appearanceCode",
+                "ascendingLabel": "Z-A",
+                "label": "现象代码",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "appearanceCode"
+            },
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "appearanceDetail",
+                "ascendingLabel": "Z-A",
+                "label": "现象详情",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "appearanceDetail"
+            },
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "notStartCode",
+                "ascendingLabel": "Z-A",
+                "label": "不启动代码",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "notStartCode"
+            },
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "notStartReason",
+                "ascendingLabel": "Z-A",
+                "label": "不启动原因",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "notStartReason"
+            },
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "remark",
+                "ascendingLabel": "Z-A",
+                "label": "备注",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "remark"
+            },
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "add_userId",
+                "ascendingLabel": "Z-A",
+                "label": "输入人",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "add_userId"
+            },
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "add_Date",
+                "ascendingLabel": "Z-A",
+                "label": "输入日期",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "add_Date"
+            }
+        ],
+        "scope": "everything",
+        "limit": 10,
+        "orderBy": [],
+        "page": 1
+    }
+}]

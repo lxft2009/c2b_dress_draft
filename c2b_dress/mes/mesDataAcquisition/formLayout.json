@@ -1,0 +1,159 @@
+[
+    {
+		"id":"00SAK0HTG0800",
+        "type": "formLayout",
+        "appid": "dataAcquisition",
+        "parentid": "00SA6C39G0800",
+        "name": "mesDataAcquisitionFormLayout",
+        "objectName": "mesDataAcquisition",
+        "layoutJson":{
+            "gutterType": "two-row",
+            "inline": false,
+            "labelPosition": "top",
+            "configId": "020f33bb-7d66-4046-a4ee-4accd95ee134",
+            "ColumnLayout": [
+                {
+                    "heading": "",
+                    "useCollapsibleSection": false,
+                    "layoutRows": [
+                        {
+                            "layoutItems": [
+                                {
+                                    "componentId": "workOrderID",
+                                    "componentTitle": "生产订单ID",
+                                    "tag": "metaInput",
+                                    "componentName": "workOrderID",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入生产订单ID",
+                                                "required": true
+                                            }
+                                        ],
+                                        "options": []
+                                    }
+                                },
+                                {
+                                    "componentId": "lineID",
+                                    "componentTitle": "产线ID",
+                                    "tag": "MetaInput",
+                                    "componentName": "lineID",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入产线ID",
+                                                "required": true
+                                            }
+                                        ],
+                                        "isArea": false,
+                                        "icon": ""
+                                    }
+                                }
+                            ],
+                            "numItems": 2
+                        },
+                        {
+                            "layoutItems": [
+                                {
+                                    "componentId": "processID",
+                                    "componentTitle": "工序ID",
+                                    "tag": "MetaInput",
+                                    "componentName": "processID",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入工序ID",
+                                                "required": true
+                                            }
+                                        ],
+                                        "isArea": false,
+                                        "icon": ""
+                                    }
+                                }
+                            ],
+                            "numItems": 2
+                        },
+                        {
+                            "layoutItems": [
+                                {
+                                    "componentId": "startUserID",
+                                    "componentTitle": "开始人员",
+                                    "tag": "MetaInput",
+                                    "componentName": "startUserID",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入开始人员",
+                                                "required": true
+                                            }
+                                        ],
+                                        "isArea": false,
+                                        "icon": ""
+                                    }
+                                },
+                                {
+                                    "componentId": "startDatetime",
+                                    "componentTitle": "开始时间",
+                                    "tag": "MetaDatePicker",
+                                    "componentName": "startDatetime",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入开始时间",
+                                                "required": true
+                                            }
+                                        ],
+                                        "isArea": false,
+                                        "icon": ""
+                                    }
+                                }
+                            ],
+                            "numItems": 2
+                        },
+                        {
+                            "layoutItems": [
+                                {
+                                    "componentId": "endUserID",
+                                    "componentTitle": "结束人员",
+                                    "tag": "MetaInput",
+                                    "componentName": "endUserID",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入结束人员",
+                                                "required": true
+                                            }
+                                        ],
+                                        "isArea": false,
+                                        "icon": ""
+                                    }
+                                },
+                                {
+                                    "componentId": "endDatetime",
+                                    "componentTitle": "结束时间",
+                                    "tag": "MetaDatePicker",
+                                    "componentName": "endDatetime",
+                                    "config": {
+                                        "formRules": [],
+                                        "isArea": false,
+                                        "icon": ""
+                                    }
+                                }
+                            ],
+                            "numItems": 2
+                        }
+                    ]
+                }
+            ],
+            "entityId": "00SA6C39G0800",
+            "entity": "mesDataAcquisition"
+	    },
+        "description": "MES数据采集表FormLayOut定义"
+	}
+]

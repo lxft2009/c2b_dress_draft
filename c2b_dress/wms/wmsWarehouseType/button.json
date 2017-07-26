@@ -1,0 +1,42 @@
+[
+    {
+        "id": "00RNAG79G0800",
+        "type": "button",
+        "appid": "material",
+        "parentid": "00RN2QVZ80800",
+        "name": "rdsMaterialTypeButtons",
+        "clientType": "pc",
+        "layoutType": "grid",
+        "objectName": "rdsMaterialType",
+        "layoutJson": {
+            "configId": "ca15e479-8a25-4ecd-a9ff-64e9d286bc93",
+            "entity": "rdsMaterialType",
+            "entityId": "00RN2QVZ80800",
+            "btns": [
+                {
+                    "name": "新建",
+                    "type": "new"
+                },
+                {
+                    "name": "删除",
+                    "type": "del"
+                },
+                {
+                    "columns": [
+                        {
+                            "id": "00RNGSYS80800",
+                            "label": "记录状态",
+                            "name": "status",
+                            "objectName": "rdsMaterialType",
+                            "type": "metaField"
+                        }
+                    ],
+                    "name": "提交",
+                    "type": "commit",
+                    "value": "790759338980413441"
+                }
+            ]
+        },
+        "description": "物料分类GridButton定义"
+    }
+]

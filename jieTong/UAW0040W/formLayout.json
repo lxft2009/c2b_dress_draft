@@ -1,0 +1,143 @@
+[
+    {
+		"id":"799225215266590720",
+        "type": "formLayout",
+        "appid": "mybaas",
+        "parentid": "799197666612350976",
+        "name": "UAW0040WformLayout",
+        "objectName": "UAW0040W",
+        "layoutJson":{
+            "gutterType": "two-row",
+            "inline": false,
+            "labelPosition": "top",
+            "configId": "82e1a11b-9139-49d6-afd2-641084e6fc75",
+            "ColumnLayout": [
+                {
+                    "heading": "",
+                    "useCollapsibleSection": false,
+                    "layoutRows": [
+                        {
+                            "layoutItems": [
+                                {
+                                    "componentId": "workshopSection",
+                                    "componentTitle": "工段",
+                                    "tag": "metaSelect",
+                                    "componentName": "workshopSection",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入工段",
+                                                "required": true
+                                            }
+                                        ],
+                                        "options": []
+                                    }
+                                },
+                                {
+                                    "componentId": "appearanceCode",
+                                    "componentTitle": "现象代码",
+                                    "tag": "MetaInput",
+                                    "componentName": "appearanceCode",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入现象代码",
+                                                "required": true
+                                            }
+                                        ],
+                                        "isArea": false,
+                                        "icon": ""
+                                    }
+                                }
+                            ],
+                            "numItems": 2
+                        },
+                        {
+                            "layoutItems": [
+                                {
+                                    "componentId": "appearanceDetail",
+                                    "componentTitle": "现象详情",
+                                    "tag": "MetaInput",
+                                    "componentName": "appearanceDetail",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入现象详情",
+                                                "required": true
+                                            }
+                                        ],
+                                        "isArea": false,
+                                        "icon": ""
+                                    }
+                                },
+                                {
+                                    "componentId": "notStartCode",
+                                    "componentTitle": "不启动代码",
+                                    "tag": "MetaInput",
+                                    "componentName": "notStartCode",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入不启动代码",
+                                                "required": true
+                                            }
+                                        ],
+                                        "isArea": false,
+                                        "icon": ""
+                                    }
+                                }
+                            ],
+                            "numItems": 2
+                        },
+                        {
+                            "layoutItems": [
+                                {
+                                    "componentId": "notStartReason",
+                                    "componentTitle": "不启动原因",
+                                    "tag": "MetaInput",
+                                    "componentName": "notStartReason",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入不启动原因",
+                                                "required": true
+                                            }
+                                        ],
+                                        "isArea": false,
+                                        "icon": ""
+                                    }
+                                },
+                                {
+                                    "componentId": "remark",
+                                    "componentTitle": "备注",
+                                    "tag": "MetaInput",
+                                    "componentName": "remark",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入备注",
+                                                "required": true
+                                            }
+                                        ],
+                                        "isArea": false,
+                                        "icon": ""
+                                    }
+                                }
+                            ],
+                            "numItems": 2
+                        }
+                    ]
+                }
+            ],
+            "entityId": "799197666612350976",
+            "entity": "UAW0040W"
+	    },
+        "description": "设备故障现象与原因主表FormLayOut定义"
+	}
+]

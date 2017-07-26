@@ -1,0 +1,65 @@
+[
+	 {
+        "id": "799449021700640768",
+        "type": "enumerator",
+        "enumCode": "0",
+        "label": "密炼连线",
+        "enumCategory": "workshopSection",
+        "description": "工段",
+        "is_deleted": false
+    },
+    {
+        "id": "799449021700640769",
+        "type": "enumerator",
+        "enumCode": "1",
+        "label": "硫化",
+        "enumCategory": "workshopSection",
+        "description": "工段",
+        "is_deleted": false
+    },
+    {
+        "id": "799449021700640770",
+        "type": "enumerator",
+        "enumCode": "2",
+        "label": "喷涂",
+        "enumCategory": "workshopSection",
+        "description": "工段",
+        "is_deleted": false
+    },
+    {
+        "id": "799449021700640771",
+        "type": "enumerator",
+        "enumCode": "3",
+        "label": "除边",
+        "enumCategory": "workshopSection",
+        "description": "工段",
+        "is_deleted": false
+    },
+    {
+        "id": "799449021700640772",
+        "type": "enumerator",
+        "enumCode": "4",
+        "label": "抽提",
+        "enumCategory": "workshopSection",
+        "description": "工段",
+        "is_deleted": false
+    },
+    {
+        "id": "799449021700640773",
+        "type": "enumerator",
+        "enumCode": "5",
+        "label": "清洗",
+        "enumCategory": "workshopSection",
+        "description": "工段",
+        "is_deleted": false
+    },
+    {
+        "id": "799449021700640774",
+        "type": "enumerator",
+        "enumCode": "6",
+        "label": "包装",
+        "enumCategory": "workshopSection",
+        "description": "工段",
+        "is_deleted": false
+    }
+]

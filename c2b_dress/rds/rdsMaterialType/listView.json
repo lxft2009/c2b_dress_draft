@@ -1,0 +1,81 @@
+[
+    {
+        "id": "00RNSE7T00800",
+        "type": "listView",
+        "appid": "material",
+        "parentid": "00RN2QVZ80800",
+        "name": "rdsMaterialTypeListView",
+        "objectName": "rdsMaterialType",
+        "description": "物料分类描述",
+        "label": "物料分类",
+        "layoutJson": {
+            "whereCondition": {},
+            "columns": [
+                {
+                    "sortDirection": "ascending",
+                    "hidden": true,
+                    "sortIndex": 0,
+                    "name": "pID",
+                    "ascendingLabel": "Z-A",
+                    "label": "父节点ID",
+                    "sortable": true,
+                    "type": "string",
+                    "descendingLabel": "A-Z",
+                    "selectListItem": "pID"
+                },
+                {
+                    "sortDirection": "ascending",
+                    "hidden": true,
+                    "sortIndex": 0,
+                    "name": "nodeType",
+                    "ascendingLabel": "Z-A",
+                    "label": "节点类型",
+                    "sortable": true,
+                    "type": "string",
+                    "descendingLabel": "A-Z",
+                    "selectListItem": "nodeType"
+                },
+                {
+                    "sortDirection": "ascending",
+                    "hidden": false,
+                    "sortIndex": 0,
+                    "name": "materialTypeCode",
+                    "ascendingLabel": "Z-A",
+                    "label": "物料分类编码",
+                    "sortable": true,
+                    "type": "string",
+                    "descendingLabel": "A-Z",
+                    "selectListItem": "materialTypeCode"
+                },
+                {
+                    "sortDirection": "ascending",
+                    "hidden": false,
+                    "sortIndex": 0,
+                    "name": "materialTypeName",
+                    "ascendingLabel": "Z-A",
+                    "label": "物料分类名称",
+                    "sortable": true,
+                    "type": "string",
+                    "descendingLabel": "A-Z",
+                    "selectListItem": "materialTypeName"
+                },
+                {
+                    "sortDirection": "ascending",
+                    "hidden": false,
+                    "sortIndex": 0,
+                    "name": "statusLabel",
+                    "ascendingLabel": "Z-A",
+                    "label": "数据状态",
+                    "sortable": true,
+                    "type": "string",
+                    "descendingLabel": "A-Z",
+                    "selectListItem": "statusLabel"
+                }
+            ],
+            "scope": "everything",
+            "limit": 10,
+            "orderBy": [],
+            "page": 1
+        }
+    }
+]

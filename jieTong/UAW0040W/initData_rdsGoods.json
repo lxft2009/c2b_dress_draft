@@ -1,0 +1,41 @@
+[
+    {
+    	"id":"788639002453348352",
+        "colorCode": "C002",
+        "colorName": "黑色",
+        "itemCode": "P001",
+        "itemName": "牛仔风衣",
+        "note": "无",
+        "productId": "788282866034282496",
+        "specCode": "S001",
+        "specName": "XXL",
+        "type": "rdsGoods",
+        "is_deleted":false
+    },
+    {
+    	"id":"788639040999002112",
+        "colorCode": "C003",
+        "colorName": "深蓝",
+        "itemCode": "P002",
+        "itemName": "上衣",
+        "note": "无",
+        "productId": "788282866034282497",
+        "specCode": "S003",
+        "specName": "XL",
+        "type": "rdsGoods",
+        "is_deleted":false
+    },
+    {
+    	"id":"788639068115177472",
+        "colorCode": "C006",
+        "colorName": "浅蓝",
+        "itemCode": "P003",
+        "itemName": "筒裤",
+        "note": "无",
+        "productId": "788282866034282498",
+        "specCode": "S002",
+        "specName": "L",
+        "type": "rdsGoods",
+        "is_deleted":false
+    }
+]

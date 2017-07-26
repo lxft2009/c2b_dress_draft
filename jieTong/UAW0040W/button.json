@@ -1,0 +1,59 @@
+[
+    {
+		"id":"799199252285755392",
+        "type": "button",
+        "appid": "mybaas",
+        "parentid": "799197666612350976",
+        "name": "UAW0040WButtons",
+        "clientType":"pc",
+    	"layoutType":"grid",
+        "objectName": "UAW0040W",
+        "layoutJson":{
+        	"configId": "15ae9c06-6b47-459d-93ca-0d91d2d69386",
+            "entity": "UAW0040W",
+            "entityId": "799197666612350976",
+            "btns": [
+                    {
+                        "name": "新建",
+                        "type": "new"
+                    },
+                    {
+                        "name": "删除",
+                        "type": "del"
+                    }
+                ]
+        },
+        "description": "设备故障现象与原因管理GridButton定义"
+    },
+    {
+		"id":"799200633629446144",
+        "type": "button",
+        "appid": "mybaas",
+        "parentid": "799197666612350976",
+        "name": "UAW0040WDetailButtons",
+        "clientType":"pc",
+    	"layoutType":"detail",
+        "objectName": "UAW0040W",
+        "layoutJson":{
+        	"configId": "82e1a11b-9139-49d6-afd2-641084e6fc75",
+            "entity": "UAW0040W",
+            "entityId": "799197666612350976",
+            "layoutType":"detail",
+	       "btns": [
+	                    {
+	                        "name": "新建",
+	                        "type": "new"
+	                    },
+	                    {
+	                        "name": "编辑",
+	                        "type": "edit"
+	                    },
+	                    {
+	                        "name": "删除",
+	                        "type": "delete"
+	                    }
+	                ]
+        }, 
+        "description": "设备故障现象与原因管理详情页Button定义"
+    }
+]

@@ -1,0 +1,87 @@
+[
+    {
+        "id": "00RNHD4AG0800",
+        "type": "formLayout",
+        "appid": "material",
+        "parentid": "00RN2QVZ80800",
+        "name": "rdsMaterialTypeFormLayout",
+        "objectName": "rdsMaterialType",
+        "layoutJson": {
+            "gutterType": "two-row",
+            "inline": false,
+            "labelPosition": "top",
+            "configId": "b3bbce60-c65f-4b7c-9fd2-dfc44f273b27",
+            "ColumnLayout": [
+                {
+                    "heading": "",
+                    "useCollapsibleSection": false,
+                    "layoutRows": [
+                        {
+                            "layoutItems": [
+                                {
+                                    "componentId": "materialTypeCode",
+                                    "componentTitle": "物料分类编码",
+                                    "tag": "MetaInput",
+                                    "componentName": "materialTypeCode",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入物料分类编码",
+                                                "required": true
+                                            }
+                                        ],
+                                        "options": []
+                                    }
+                                },
+                                {
+                                    "componentId": "materialTypeName",
+                                    "componentTitle": "物料分类名称",
+                                    "tag": "MetaInput",
+                                    "componentName": "materialTypeName",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入物料分类名称",
+                                                "required": true
+                                            }
+                                        ],
+                                        "isArea": false,
+                                        "icon": ""
+                                    }
+                                }
+                            ],
+                            "numItems": 2
+                        },
+                        {
+                                "layoutItems": [
+                                    {
+                                        "componentId": "status",
+                                        "componentTitle": "数据状态",
+                                        "componentName": "status",
+                                        "tag": "MetaSelect",
+                                        "config": {
+                                            "formRules": [
+                                                {
+                                                    "trigger": "blur",
+                                                    "message": "请输入数据状态",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "isArea": false,
+                                            "icon": ""
+                                        }
+                                    }
+                                ],
+                                "numItems": 2
+                            }
+                    ]
+                }
+            ],
+            "entityId": "00RN2QVZ80800",
+            "entity": "rdsMaterialType"
+        },
+        "description": "物料分类FormLayOut定义"
+    }
+]

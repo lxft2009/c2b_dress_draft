@@ -1,0 +1,48 @@
+[
+	{
+    "id": "00SAGZ4G80800",
+    "parentid": "00SA6C39G0800",
+    "appid": "dataAcquisition",
+    "objectName": "mesDataAcquisition",
+    "type": "compactLayout",
+    "name": "mesDataAcquisitionCompactLayout",
+    "description": "MES数据采集的高亮布局",
+    "layoutJson": {
+ 		"configId": "020f33bb-7d66-4046-a4ee-4accd95ee134",
+ 		"entityId": "00SA6C39G0800",
+        "title": "MES数据采集管理",
+        "entity": "mesDataAcquisition",
+        "columns": [
+            {
+                "name": "workOrderID",
+                "lable": "生产订单ID"
+            },
+            {
+                "name": "lineID",
+                "lable": "产线ID"
+            },
+            {
+                "name": "processID",
+                "lable": "工序ID"
+            },
+            {
+                "name": "startUserID",
+                "lable": "开始人员"
+            },
+            {
+                "name": "startDatetime",
+                "lable": "开始时间"
+            }
+            ,
+            {
+                "name": "endUserID",
+                "lable": "结束人员"
+            },
+            {
+                "name": "endDatetime",
+                "lable": "结束时间"
+            }
+        ]
+	}
+	}
+]

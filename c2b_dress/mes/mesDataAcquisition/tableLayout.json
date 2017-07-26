@@ -1,0 +1,16 @@
+[
+    {
+		"id":"00SASBS9G0800",
+        "type": "tableLayout",
+        "appid": "dataAcquisition",
+        "parentid": "00SA6C39G0800",
+        "name": "mesDataAcquisitionGridLayout",
+        "objectName": "mesDataAcquisition",
+        "layoutJson": {
+                "configId": "f9da4258-66a7-443e-a7b6-f88318db1bb3",
+                "entity": "mesDataAcquisition",
+                "entityId": "00SA6C39G0800"
+         },
+        "description": "MES数据采集tableLayout定义"
+    }
+]
