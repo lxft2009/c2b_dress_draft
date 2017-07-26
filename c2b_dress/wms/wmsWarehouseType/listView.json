@@ -1,0 +1,67 @@
+[{
+    "id": "00SZS30580800",
+    "type": "listView",
+    "appid": "warehouse",
+    "parentid": "00SYD7ZFG0800",
+    "name": "wmsWarehouseTypeListView",
+    "objectName": "wmsWarehouseType",
+    "description": "仓库类别列表描述",
+    "label": "仓库类别表",
+    "layoutJson": {
+        "whereCondition": {},
+        "columns": [
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "warehouseTypeCode",
+                "ascendingLabel": "Z-A",
+                "label": "仓库类别代码",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "warehouseTypeCode"
+            },
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "warehouseTypeName",
+                "ascendingLabel": "Z-A",
+                "label": "仓库类别名称",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "warehouseTypeName"
+            },
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "remark",
+                "ascendingLabel": "Z-A",
+                "label": "备注",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "remark"
+            },
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "statusLabel",
+                "ascendingLabel": "Z-A",
+                "label": "数据状态",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "status"
+            }
+        ],
+        "scope": "everything",
+        "limit": 10,
+        "orderBy": [],
+        "page": 1
+    }
+}]

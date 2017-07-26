@@ -1,0 +1,104 @@
+[
+    {
+		"id":"00SZB8M180800",
+        "type": "formLayout",
+        "appid": "warehouse",
+        "parentid": "00SYD7ZFG0800",
+        "name": "wmsWarehouseTypeFormLayout",
+        "objectName": "wmsWarehouseType",
+        "layoutJson":{
+            "gutterType": "two-row",
+            "inline": false,
+            "labelPosition": "top",
+            "configId": "7161e1ff-665d-40e6-af3d-46e3fdd31101",
+            "ColumnLayout": [
+                {
+                    "heading": "",
+                    "useCollapsibleSection": false,
+                    "layoutRows": [
+                        {
+                            "layoutItems": [
+                                {
+                                    "componentId": "warehouseTypeCode",
+                                    "componentTitle": "仓库类别代码",
+                                    "tag": "metaInput",
+                                    "componentName": "warehouseTypeCode",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入仓库类别代码",
+                                                "required": true
+                                            }
+                                        ],
+                                        "options": []
+                                    }
+                                },
+                                {
+                                    "componentId": "warehouseTypeName",
+                                    "componentTitle": "仓库类别名称",
+                                    "tag": "MetaInput",
+                                    "componentName": "warehouseTypeName",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入仓库类别名称",
+                                                "required": true
+                                            }
+                                        ],
+                                        "isArea": false,
+                                        "icon": ""
+                                    }
+                                }
+                            ],
+                            "numItems": 2
+                        },
+                        {
+                            "layoutItems": [
+                                {
+                                    "componentId": "remark",
+                                    "componentTitle": "备注",
+                                    "tag": "MetaInput",
+                                    "componentName": "remark",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入备注",
+                                                "required": true
+                                            }
+                                        ],
+                                        "isArea": false,
+                                        "icon": ""
+                                    }
+                                },
+                                {
+                                    "componentId": "status",
+                                    "componentTitle": "数据状态",
+                                    "tag": "MetaSelect",
+                                    "componentName": "status",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入数据状态",
+                                                "required": true
+                                            }
+                                        ],
+                                        "isArea": false,
+                                        "icon": ""
+                                    }
+                                }
+                            ],
+                            "numItems": 2
+                        }             
+                    ]
+                }
+            ],
+            "entityId": "00SYD7ZFG0800",
+            "entity": "wmsWarehouseType"
+	    },
+        "description": "仓库类别表FormLayOut定义"
+	}
+]

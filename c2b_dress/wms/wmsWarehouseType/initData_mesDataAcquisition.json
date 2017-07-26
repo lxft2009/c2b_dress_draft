@@ -1,0 +1,16 @@
+[
+    {
+    	"id":"00SC85FN00800",
+    	"appid": "dataAcquisition",
+    	"type": "mesDataAcquisition",
+        "workOrderID": "C002",
+        "lineID": "黑色",
+        "processID": "P001",
+        "startUserID": "牛仔风衣",
+        "startDatetime": "无",
+        "endUserID": "788282866034282496",
+        "specCode": "S001",
+        "specName": "XXL",
+        "is_deleted":false
+    }
+]

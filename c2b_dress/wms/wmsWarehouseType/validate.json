@@ -1,0 +1,62 @@
+﻿[
+	{
+		"objectName": "wmsWarehouseType",
+		"fieldName": "warehouseTypeCode",
+		"type": "validate",
+		"appid": "warehouse",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			},
+			"size":{
+				"max":50
+			}
+			
+		}
+	},
+	{
+		"objectName": "wmsWarehouseType",
+		"fieldName": "warehouseTypeName",
+		"type": "validate",
+		"appid": "warehouse",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			},
+			"size":{
+				"max":50
+			}
+			
+		}
+	},
+	{
+		"objectName": "wmsWarehouseType",
+		"fieldName": "remark",
+		"type": "validate",
+		"appid": "warehouse",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			},
+			"size":{
+				"max":50
+			}
+			
+		}
+	},
+	{
+		"objectName": "wmsWarehouseType",
+		"fieldName": "status",
+		"type": "validate",
+		"appid": "warehouse",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			},
+			"size":{
+				"max":50
+			}
+			
+		}
+	}
+]
