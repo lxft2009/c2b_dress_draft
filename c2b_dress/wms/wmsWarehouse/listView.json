@@ -1,0 +1,79 @@
+[{
+    "id": "00TF3Z5VG0800",
+    "type": "listView",
+    "appid": "warehouse",
+    "parentid": "00TE413VG0800",
+    "name": "wmsWarehouseListView",
+    "objectName": "wmsWarehouse",
+    "description": "仓库列表描述",
+    "label": "仓库表",
+    "layoutJson": {
+        "whereCondition": {},
+        "columns": [
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "warehouseTypeIDLabel",
+                "ascendingLabel": "Z-A",
+                "label": "仓库类别",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "warehouseTypeIDLabel"
+            },
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "warehouseCode",
+                "ascendingLabel": "Z-A",
+                "label": "仓库代码",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "warehouseCode"
+            },
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "warehouseName",
+                "ascendingLabel": "Z-A",
+                "label": "仓库名称",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "warehouseName"
+            },
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "remark",
+                "ascendingLabel": "Z-A",
+                "label": "备注",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "remark"
+            },
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "statusLabel",
+                "ascendingLabel": "Z-A",
+                "label": "数据状态",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "status"
+            }
+        ],
+        "scope": "everything",
+        "limit": 10,
+        "orderBy": [],
+        "page": 1
+    }
+}]

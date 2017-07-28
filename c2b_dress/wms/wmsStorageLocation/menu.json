@@ -1,0 +1,10 @@
+[
+	{
+      "path": "wmsStorageLocation/00V6PGFT80800/797761434527207424/788691152822865920",
+      "icon": "fa fa-database",
+      "name": "库位",
+      "objectName": "wmsStorageLocation",
+      "id": "00V6PGFT80800",
+      "label": "库位"
+	}
+]

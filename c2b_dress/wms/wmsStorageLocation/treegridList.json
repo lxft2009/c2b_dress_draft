@@ -1,0 +1,26 @@
+[
+    {
+        "id": "00V7M9XHG0800",
+        "type": "treegridList",
+        "appid": "warehouse",
+        "parentid": "00V6PGFT80800",
+        "name": "wmsStorageLocationTreegridList",
+        "objectName": "wmsStorageLocation",
+        "layoutJson": {
+            "items": [
+                {
+                    "buttonSection": {
+                        "configId": "d5c7c1f0-630d-48c2-b3dd-9286dc906fb2",
+                        "btnType": "parent",
+                        "entity": "wmsStorageLocation",
+                        "entityId": "00V6PGFT80800"
+                    },
+                    "configId": "d5c7c1f0-630d-48c2-b3dd-9286dc906fb2",
+                    "entity": "wmsStorageLocation",
+                    "entityId": "00V6PGFT80800"
+                }
+            ]
+        },
+        "description": "库位treegridList定义"
+    }
+]

@@ -12,13 +12,13 @@
             "entity": "rdsMaterialType",
             "entityId": "00RN2QVZ80800",
             "columns": [
-                {
+            	{
                     "config": {
                         "size": "small"
                     },
                     "label": "物料分类编码",
-                    "name": "materialTypeCode"
-                },
+                    "name": "id"
+                },               
                 {
                     "config": {
                         "size": "small"

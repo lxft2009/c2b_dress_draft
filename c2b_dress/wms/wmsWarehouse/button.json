@@ -1,0 +1,73 @@
+[
+    {
+		"id":"00TEQ1WDR0800",
+        "type": "button",
+        "appid": "warehouse",
+        "parentid": "00TE413VG0800",
+        "name": "wmsWarehouseButtons",
+        "clientType":"pc",
+    	"layoutType":"grid",
+        "objectName": "wmsWarehouse",
+        "layoutJson":{
+        	"configId": "dd48a12b-e8ee-4b8c-8104-f10495c9a16a",
+            "entity": "wmsWarehouse",
+            "entityId": "00TE413VG0800",
+            "btns": [
+                    {
+                        "name": "新建",
+                        "type": "new"
+                    },
+                    {
+                        "name": "删除",
+                        "type": "del"
+                    },
+                    {
+                        "columns": [
+                            {
+                                "id": "00TEVT7W00800",
+                                "label": "记录状态",
+                                "name": "status",
+                                "objectName": "wmsWarehouse",
+                                "type": "metaField"
+                            }
+                        ],
+                        "name": "提交",
+                        "type": "commit",
+                        "value": "1"
+                    }
+                ]
+        },
+        "description": "仓库GridButton定义"
+    },
+    {
+		"id":"00TEW35QR0800",
+        "type": "button",
+        "appid": "warehouse",
+        "parentid": "00TE413VG0800",
+        "name": "wmsWarehouseDetailButtons",
+        "clientType":"pc",
+    	"layoutType":"detail",
+        "objectName": "wmsWarehouse",
+        "layoutJson":{
+        	"configId": "67d39788-be67-4682-8695-911c879590a1",
+            "entity": "wmsWarehouse",
+            "entityId": "00TE413VG0800",
+            "layoutType":"detail",
+	       "btns": [
+	                    {
+	                        "name": "新建",
+	                        "type": "new"
+	                    },
+	                    {
+	                        "name": "编辑",
+	                        "type": "edit"
+	                    },
+	                    {
+	                        "name": "删除",
+	                        "type": "delete"
+	                    }
+	                ]
+        }, 
+        "description": "仓库详情页Button定义"
+    }
+]

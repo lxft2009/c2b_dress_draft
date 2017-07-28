@@ -1,0 +1,42 @@
+[
+    {
+        "id": "00V7C5Q700800",
+        "type": "button",
+        "appid": "warehouse",
+        "parentid": "00V6PGFT80800",
+        "name": "wmsStorageLocationButtons",
+        "clientType": "pc",
+        "layoutType": "grid",
+        "objectName": "wmsStorageLocation",
+        "layoutJson": {
+            "configId": "d5c7c1f0-630d-48c2-b3dd-9286dc906fb2",
+            "entity": "wmsStorageLocation",
+            "entityId": "00V6PGFT80800",
+            "btns": [
+                {
+                    "name": "新建",
+                    "type": "new"
+                },
+                {
+                    "name": "删除",
+                    "type": "del"
+                },
+                {
+                    "columns": [
+                        {
+                            "id": "00V7CVK180800",
+                            "label": "记录状态",
+                            "name": "status",
+                            "objectName": "wmsStorageLocation",
+                            "type": "metaField"
+                        }
+                    ],
+                    "name": "提交",
+                    "type": "commit",
+                    "value": "790759338980413441"
+                }
+            ]
+        },
+        "description": "库位GridButton定义"
+    }
+]

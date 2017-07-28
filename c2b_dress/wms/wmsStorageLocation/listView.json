@@ -1,28 +1,16 @@
 [
     {
-        "id": "00RNSE7T00800",
+        "id": "00V7FZA180800",
         "type": "listView",
-        "appid": "material",
-        "parentid": "00RN2QVZ80800",
-        "name": "rdsMaterialTypeListView",
-        "objectName": "rdsMaterialType",
-        "description": "物料分类描述",
-        "label": "物料分类",
+        "appid": "warehouse",
+        "parentid": "00V6PGFT80800",
+        "name": "wmsStorageLocationListView",
+        "objectName": "wmsStorageLocation",
+        "description": "库位描述",
+        "label": "库位",
         "layoutJson": {
             "whereCondition": {},
-            "columns": [
-            	{
-                    "sortDirection": "ascending",
-                    "hidden": false,
-                    "sortIndex": 0,
-                    "name": "id",
-                    "ascendingLabel": "Z-A",
-                    "label": "物料分类编码",
-                    "sortable": true,
-                    "type": "string",
-                    "descendingLabel": "A-Z",
-                    "selectListItem": "id"
-                },
+            "columns": [       	
                 {
                     "sortDirection": "ascending",
                     "hidden": true,
@@ -51,13 +39,49 @@
                     "sortDirection": "ascending",
                     "hidden": false,
                     "sortIndex": 0,
-                    "name": "materialTypeName",
+                    "name": "warehouseIDLabel",
                     "ascendingLabel": "Z-A",
-                    "label": "物料分类名称",
+                    "label": "仓库",
                     "sortable": true,
                     "type": "string",
                     "descendingLabel": "A-Z",
-                    "selectListItem": "materialTypeName"
+                    "selectListItem": "warehouseIDLabel"
+                },
+                {
+                    "sortDirection": "ascending",
+                    "hidden": false,
+                    "sortIndex": 0,
+                    "name": "locationCode",
+                    "ascendingLabel": "Z-A",
+                    "label": "库位代码",
+                    "sortable": true,
+                    "type": "string",
+                    "descendingLabel": "A-Z",
+                    "selectListItem": "locationCode"
+                },
+                {
+                    "sortDirection": "ascending",
+                    "hidden": false,
+                    "sortIndex": 0,
+                    "name": "locationName",
+                    "ascendingLabel": "Z-A",
+                    "label": "库位名称",
+                    "sortable": true,
+                    "type": "string",
+                    "descendingLabel": "A-Z",
+                    "selectListItem": "locationName"
+                },
+                {
+                    "sortDirection": "ascending",
+                    "hidden": false,
+                    "sortIndex": 0,
+                    "name": "remark",
+                    "ascendingLabel": "Z-A",
+                    "label": "备注",
+                    "sortable": true,
+                    "type": "string",
+                    "descendingLabel": "A-Z",
+                    "selectListItem": "remark"
                 },
                 {
                     "sortDirection": "ascending",

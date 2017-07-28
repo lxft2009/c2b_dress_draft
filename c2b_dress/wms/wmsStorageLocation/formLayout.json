@@ -1,16 +1,16 @@
 [
     {
-        "id": "00RNHD4AG0800",
+        "id": "00V7D52780800",
         "type": "formLayout",
-        "appid": "material",
-        "parentid": "00RN2QVZ80800",
-        "name": "rdsMaterialTypeFormLayout",
-        "objectName": "rdsMaterialType",
+        "appid": "warehouse",
+        "parentid": "00V6PGFT80800",
+        "name": "wmsStorageLocationFormLayout",
+        "objectName": "wmsStorageLocation",
         "layoutJson": {
             "gutterType": "two-row",
             "inline": false,
             "labelPosition": "top",
-            "configId": "b3bbce60-c65f-4b7c-9fd2-dfc44f273b27",
+            "configId": "e2407197-aa20-4d46-a861-cb6b89deaa8a",
             "ColumnLayout": [
                 {
                     "heading": "",
@@ -19,15 +19,15 @@
                         {
                             "layoutItems": [                            	
                                 {
-                                    "componentId": "id",
-                                    "componentTitle": "物料分类编码",
-                                    "tag": "MetaInput",
-                                    "componentName": "id",
+                                    "componentId": "warehouseID",
+                                    "componentTitle": "仓库",
+                                    "tag": "metaRelatedSelect",
+                                    "componentName": "warehouseID",
                                     "config": {
                                         "formRules": [
                                             {
                                                 "trigger": "blur",
-                                                "message": "请输入物料分类编码",
+                                                "message": "请输入仓库",
                                                 "required": true
                                             }
                                         ],
@@ -35,15 +35,52 @@
                                     }
                                 },
                                 {
-                                    "componentId": "materialTypeName",
-                                    "componentTitle": "物料分类名称",
+                                    "componentId": "locationCode",
+                                    "componentTitle": "库位代码",
                                     "tag": "MetaInput",
-                                    "componentName": "materialTypeName",
+                                    "componentName": "locationCode",
                                     "config": {
                                         "formRules": [
                                             {
                                                 "trigger": "blur",
-                                                "message": "请输入物料分类名称",
+                                                "message": "请输入库位代码",
+                                                "required": true
+                                            }
+                                        ],
+                                        "options": []
+                                    }
+                                }
+                            ],
+                            "numItems": 2
+                        },
+                        {
+                            "layoutItems": [                            	
+                                {
+                                    "componentId": "locationName",
+                                    "componentTitle": "库位名称",
+                                    "tag": "metaInput",
+                                    "componentName": "locationName",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入库位名称",
+                                                "required": true
+                                            }
+                                        ],
+                                        "options": []
+                                    }
+                                },
+                                {
+                                    "componentId": "remark",
+                                    "componentTitle": "备注",
+                                    "tag": "MetaInput",
+                                    "componentName": "remark",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入备注",
                                                 "required": true
                                             }
                                         ],
@@ -78,9 +115,9 @@
                     ]
                 }
             ],
-            "entityId": "00RN2QVZ80800",
-            "entity": "rdsMaterialType"
+            "entityId": "00V6PGFT80800",
+            "entity": "wmsStorageLocation"
         },
-        "description": "物料分类FormLayOut定义"
+        "description": "库位FormLayOut定义"
     }
 ]

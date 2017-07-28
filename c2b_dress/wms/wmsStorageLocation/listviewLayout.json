@@ -1,0 +1,34 @@
+[
+    {
+        "id": "00V7HQNZ00800",
+        "type": "listviewLayout",
+        "appid": "warehouse",
+        "parentid": "00V6PGFT80800",
+        "objectName": "wmsStorageLocation",
+        "description": "listview布局",
+        "layoutJson": {
+            "entity": "wmsStorageLocation",
+            "entityId": "00V6PGFT80800",
+            "configId": "d5c7c1f0-630d-48c2-b3dd-9286dc906fb2",
+            "label": "列表视图"
+        },
+        "category": "listview"
+    },
+    {
+        "id": "00V7J5GV80800",
+        "type": "listviewLayout",
+        "appid": "warehouse",
+        "parentid": "00V6PGFT80800",
+        "objectName": "wmsStorageLocation",
+        "description": "settingbutton布局",
+        "layoutJson": {
+            "label": "列表视图",
+            "parentEntity": "wmsStorageLocation",
+            "parentEntityId": "00V6PGFT80800",
+            "configId": "d5c7c1f0-630d-48c2-b3dd-9286dc906fb2",
+            "entity": "listView",
+            "entityId": "00V6PGFT80800"
+        },
+        "category": "setting"
+    }
+]

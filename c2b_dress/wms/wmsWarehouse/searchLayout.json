@@ -1,0 +1,53 @@
+[
+{
+  "id": "00TFWZEFR0800",
+  "parentid": "00TE413VG0800",
+  "appid": "warehouse",
+  "objectName": "wmsWarehouse",
+  "type": "searchLayout",
+  "name": "仓库查询布局",
+  "description": "",
+  "layoutJson": {
+  	"configId": "dd48a12b-e8ee-4b8c-8104-f10495c9a16a",
+    "entity": "wmsWarehouse",
+    "entityId": "00TE413VG0800",
+    "columns": [
+        {
+            "config": {
+                "size": "small"
+            },
+            "label": "仓库类别",
+            "name": "warehouseTypeID"
+        },
+        {
+            "config": {
+                "size": "small"
+            },
+            "label": "仓库代码",
+            "name": "warehouseCode"
+        },
+        {
+            "config": {
+                "size": "small"
+            },
+            "label": "仓库名称",
+            "name": "warehouseName"
+        },
+        {
+            "config": {
+                "size": "small"
+            },
+            "label": "备注",
+            "name": "remark"
+        },
+        {
+            "config": {
+                "size": "small"
+            },
+            "label": "数据状态",
+            "name": "status"
+        }
+    ]
+	}
+  }
+]

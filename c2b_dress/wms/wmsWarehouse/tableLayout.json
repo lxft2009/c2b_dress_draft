@@ -1,0 +1,16 @@
+[
+    {
+		"id":"00TFXRKE80800",
+        "type": "tableLayout",
+        "appid": "warehouse",
+        "parentid": "00TE413VG0800",
+        "name": "wmsWarehouseGridLayout",
+        "objectName": "wmsWarehouse",
+        "layoutJson": {
+                "configId": "dd48a12b-e8ee-4b8c-8104-f10495c9a16a",
+                "entity": "wmsWarehouse",
+                "entityId": "00TE413VG0800"
+         },
+        "description": "仓库tableLayout定义"
+    }
+]
