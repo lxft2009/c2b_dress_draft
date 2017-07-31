@@ -26,25 +26,25 @@
                 "sortDirection": "ascending",
                 "hidden": false,
                 "sortIndex": 0,
-                "name": "locationID",
+                "name": "locationIDLabel",
                 "ascendingLabel": "Z-A",
                 "label": "库位",
                 "sortable": true,
                 "type": "string",
                 "descendingLabel": "A-Z",
-                "selectListItem": "locationID"
+                "selectListItem": "locationIDLabel"
             },
             {
                 "sortDirection": "ascending",
                 "hidden": false,
                 "sortIndex": 0,
-                "name": "materialID",
+                "name": "materialIDLabel",
                 "ascendingLabel": "Z-A",
                 "label": "物料",
                 "sortable": true,
                 "type": "string",
                 "descendingLabel": "A-Z",
-                "selectListItem": "materialID"
+                "selectListItem": "materialIDLabel"
             },
             {
                 "sortDirection": "ascending",
@@ -62,13 +62,13 @@
                 "sortDirection": "ascending",
                 "hidden": false,
                 "sortIndex": 0,
-                "name": "unitID",
+                "name": "unitIDLabel",
                 "ascendingLabel": "Z-A",
                 "label": "单位",
                 "sortable": true,
                 "type": "string",
                 "descendingLabel": "A-Z",
-                "selectListItem": "unitID"
+                "selectListItem": "unitIDLabel"
             },
             {
                 "sortDirection": "ascending",
