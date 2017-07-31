@@ -1,0 +1,35 @@
+[
+    {
+		"id":"00X48MHQR0800",
+        "type": "button",
+        "appid": "stock",
+        "parentid": "00X2C5HJ00800",
+        "name": "wmsStockButtons",
+        "clientType":"pc",
+    	"layoutType":"grid",
+        "objectName": "wmsStock",
+        "layoutJson":{
+        	"configId": "0fb94f5f-5ebe-49c9-aff7-62fc91dbeb5f",
+            "entity": "wmsStock",
+            "entityId": "00X2C5HJ00800"            
+        },
+        "description": "仓库查询GridButton定义"
+    },
+    {
+		"id":"00X4C185R0800",
+        "type": "button",
+        "appid": "stock",
+        "parentid": "00X2C5HJ00800",
+        "name": "wmsStockDetailButtons",
+        "clientType":"pc",
+    	"layoutType":"detail",
+        "objectName": "wmsStock",
+        "layoutJson":{
+        	"configId": "a1506d02-1701-46b5-9c31-be11b5e4dd4d",
+            "entity": "wmsStock",
+            "entityId": "00X2C5HJ00800",
+            "layoutType":"detail"
+        }, 
+        "description": "仓库查询详情页Button定义"
+    }
+]

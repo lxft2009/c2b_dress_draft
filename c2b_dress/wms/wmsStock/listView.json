@@ -1,0 +1,115 @@
+[{
+    "id": "00X527WS00800",
+    "type": "listView",
+    "appid": "stock",
+    "parentid": "00X2C5HJ00800",
+    "name": "wmsStockListView",
+    "objectName": "wmsStock",
+    "description": "库存表描述",
+    "label": "库存表",
+    "layoutJson": {
+        "whereCondition": {},
+        "columns": [
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "warehouseIDLabel",
+                "ascendingLabel": "Z-A",
+                "label": "仓库",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "warehouseIDDLabel"
+            },
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "locationID",
+                "ascendingLabel": "Z-A",
+                "label": "库位",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "locationID"
+            },
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "materialID",
+                "ascendingLabel": "Z-A",
+                "label": "物料",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "materialID"
+            },
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "quantity",
+                "ascendingLabel": "Z-A",
+                "label": "物料数量",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "quantity"
+            },
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "unitID",
+                "ascendingLabel": "Z-A",
+                "label": "单位",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "unitID"
+            },
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "batchNum",
+                "ascendingLabel": "Z-A",
+                "label": "批次号",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "batchNum"
+            },
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "serialNum",
+                "ascendingLabel": "Z-A",
+                "label": "序列号",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "serialNum"
+            },           
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "remark",
+                "ascendingLabel": "Z-A",
+                "label": "备注",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "remark"
+            }
+        ],
+        "scope": "everything",
+        "limit": 10,
+        "orderBy": [],
+        "page": 1
+    }
+}]

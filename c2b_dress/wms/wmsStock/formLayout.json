@@ -1,0 +1,179 @@
+[
+    {
+		"id":"00X4EDFY00800",
+        "type": "formLayout",
+        "appid": "stock",
+        "parentid": "00X2C5HJ00800",
+        "name": "wmsStockFormLayout",
+        "objectName": "wmsStock",
+        "layoutJson":{
+            "gutterType": "two-row",
+            "inline": false,
+            "labelPosition": "top",
+            "configId": "a1506d02-1701-46b5-9c31-be11b5e4dd4d",
+            "ColumnLayout": [
+                {
+                    "heading": "",
+                    "useCollapsibleSection": false,
+                    "layoutRows": [
+                        {
+                            "layoutItems": [
+                                {
+                                    "componentId": "warehouseID",
+                                    "componentTitle": "仓库",
+                                    "tag": "metaRelatedSelect",
+                                    "componentName": "warehouseID",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入仓库",
+                                                "required": true
+                                            }
+                                        ],
+                                        "options": []
+                                    }
+                                },
+                                {
+                                    "componentId": "locationID",
+                                    "componentTitle": "库位",
+                                    "tag": "metaRelatedSelect",
+                                    "componentName": "locationID",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入库位",
+                                                "required": true
+                                            }
+                                        ],
+                                        "isArea": false,
+                                        "icon": ""
+                                    }
+                                }
+                            ],
+                            "numItems": 2
+                        }, 
+                        {
+                            "layoutItems": [
+                                {
+                                    "componentId": "materialID",
+                                    "componentTitle": "物料",
+                                    "tag": "metaRelatedSelect",
+                                    "componentName": "materialID",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入物料",
+                                                "required": true
+                                            }
+                                        ],
+                                        "options": []
+                                    }
+                                },
+                                {
+                                    "componentId": "quantity",
+                                    "componentTitle": "物料数量",
+                                    "tag": "metaInput",
+                                    "componentName": "quantity",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入物料数量",
+                                                "required": true
+                                            }
+                                        ],
+                                        "isArea": false,
+                                        "icon": ""
+                                    }
+                                }
+                            ],
+                            "numItems": 2
+                        }, 
+                        {
+                            "layoutItems": [
+                                {
+                                    "componentId": "unitID",
+                                    "componentTitle": "单位",
+                                    "tag": "metaSelect",
+                                    "componentName": "unitID",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入单位",
+                                                "required": true
+                                            }
+                                        ],
+                                        "options": []
+                                    }
+                                },
+                                {
+                                    "componentId": "batchNum",
+                                    "componentTitle": "批次号",
+                                    "tag": "metaInput",
+                                    "componentName": "batchNum",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入批次号",
+                                                "required": true
+                                            }
+                                        ],
+                                        "isArea": false,
+                                        "icon": ""
+                                    }
+                                }
+                            ],
+                            "numItems": 2
+                        },
+                        {
+                            "layoutItems": [
+                                {
+                                    "componentId": "serialNum",
+                                    "componentTitle": "序列号",
+                                    "tag": "metaInput",
+                                    "componentName": "serialNum",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入序列号",
+                                                "required": true
+                                            }
+                                        ],
+                                        "options": []
+                                    }
+                                },
+                                {
+                                    "componentId": "remark",
+                                    "componentTitle": "备注",
+                                    "tag": "metaInput",
+                                    "componentName": "remark",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入备注",
+                                                "required": true
+                                            }
+                                        ],
+                                        "isArea": false,
+                                        "icon": ""
+                                    }
+                                }
+                            ],
+                            "numItems": 2
+                        }            
+                    ]
+                }
+            ],
+            "entityId": "00X2C5HJ00800",
+            "entity": "wmsStock"
+	    },
+        "description": "库存表FormLayOut定义"
+	}
+]

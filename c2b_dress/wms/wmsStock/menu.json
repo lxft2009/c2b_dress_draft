@@ -1,0 +1,10 @@
+[
+	{
+	  "path": "wmsStock/00X2C5HJ00800/788647651343077377/788691152822865920",
+	  "icon": "fa fa-database",
+	  "name": "库存管理",
+	  "objectName": "wmsStock",
+	  "id": "00X2C5HJ00800",
+	  "label": "库存管理"
+	}
+]
