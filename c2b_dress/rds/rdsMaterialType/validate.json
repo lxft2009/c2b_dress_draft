@@ -1,0 +1,25 @@
+﻿[
+	{
+		"objectName": "rdsMaterialType",
+		"fieldName": "id",
+		"type": "validate",
+		"appid": "material",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			}
+		}
+	},
+	{
+		"objectName": "rdsMaterialType",
+		"fieldName": "materialTypeName",
+		"type": "validate",
+		"appid": "material",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			}
+		}
+	}
+	
+]
