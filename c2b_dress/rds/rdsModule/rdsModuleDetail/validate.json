@@ -31,27 +31,5 @@
 				"message": "messages.required"
 			}
 		}
-	},
-	{
-		"objectName": "rdsModuleDetail",
-		"fieldName": "versions",
-		"type": "validate",
-		"appid": "module",
-		"validateJson": {
-			"required": {
-				"message": "messages.required"
-			}
-		}
-	},
-	{
-		"objectName": "rdsModuleDetail",
-		"fieldName": "status",
-		"type": "validate",
-		"appid": "module",
-		"validateJson": {
-			"required": {
-				"message": "messages.required"
-			}
-		}
 	}
 ]

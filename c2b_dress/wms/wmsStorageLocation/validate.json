@@ -1,7 +1,7 @@
 ﻿[
 	{
-		"objectName": "wmsWarehouse",
-		"fieldName": "warehouseTypeID",
+		"objectName": "wmsStorageLocation",
+		"fieldName": "warehouseID",
 		"type": "validate",
 		"appid": "warehouse",
 		"validateJson": {
@@ -15,8 +15,8 @@
 		}
 	},
 	{
-		"objectName": "wmsWarehouse",
-		"fieldName": "warehouseCode",
+		"objectName": "wmsStorageLocation",
+		"fieldName": "locationCode",
 		"type": "validate",
 		"appid": "warehouse",
 		"validateJson": {
@@ -30,8 +30,8 @@
 		}
 	},
 	{
-		"objectName": "wmsWarehouse",
-		"fieldName": "warehouseName",
+		"objectName": "wmsStorageLocation",
+		"fieldName": "locationName",
 		"type": "validate",
 		"appid": "warehouse",
 		"validateJson": {
