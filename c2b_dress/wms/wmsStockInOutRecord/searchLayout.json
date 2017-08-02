@@ -1,0 +1,53 @@
+[
+{
+  "id": "00XW1SYB80800",
+  "parentid": "00XRYJ4EG0800",
+  "appid": "stock",
+  "objectName": "wmsStockInOutRecord",
+  "type": "searchLayout",
+  "name": "出入库履历查询布局",
+  "description": "",
+  "layoutJson": {
+  	"configId": "3777c8a2-7d0b-44bd-8165-b09314b51b84",
+    "entity": "wmsStockInOutRecord",
+    "entityId": "00XRYJ4EG0800",
+    "columns": [        
+        {
+            "config": {
+                "size": "small"
+            },
+            "label": "库位",
+            "name": "locationID"
+        },
+        {
+            "config": {
+                "size": "small"
+            },
+            "label": "物料",
+            "name": "materialID"
+        },
+        {
+            "config": {
+                "size": "small"
+            },
+            "label": "入出库区分",
+            "name": "inoutType"
+        },
+        {
+            "config": {
+                "size": "small"
+            },
+            "label": "序列号",
+            "name": "serialNum"
+        },
+        {
+            "config": {
+                "size": "small"
+            },
+            "label": "业务类型",
+            "name": "businessType"
+        }       
+    ]
+	}
+  }
+]

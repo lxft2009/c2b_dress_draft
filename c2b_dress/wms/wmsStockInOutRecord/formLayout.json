@@ -1,0 +1,233 @@
+[
+    {
+		"id":"00XS9XH1G0800",
+        "type": "formLayout",
+        "appid": "stock",
+        "parentid": "00XRYJ4EG0800",
+        "name": "wmsStockInOutRecordFormLayout",
+        "objectName": "wmsStockInOutRecord",
+        "layoutJson":{
+            "gutterType": "two-row",
+            "inline": false,
+            "labelPosition": "top",
+            "configId": "529c551f-aabe-4db2-a26f-bc546892769b",
+            "ColumnLayout": [
+                {
+                    "heading": "",
+                    "useCollapsibleSection": false,
+                    "layoutRows": [
+                        {
+                            "layoutItems": [
+                            	{
+                                    "componentId": "inoutID",
+                                    "componentTitle": "入出库ID",
+                                    "tag": "metaInput",
+                                    "componentName": "inoutID",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入入出库ID",
+                                                "required": true
+                                            }
+                                        ],
+                                        "options": []
+                                    }
+                                },
+                                {
+                                    "componentId": "warehouseID",
+                                    "componentTitle": "仓库",
+                                    "tag": "metaRelatedSelect",
+                                    "componentName": "warehouseID",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入仓库",
+                                                "required": true
+                                            }
+                                        ],
+                                        "options": []
+                                    }
+                                }
+                            ],
+                            "numItems": 2
+                        }, 
+                        {
+                            "layoutItems": [                            	
+                                {
+                                    "componentId": "locationID",
+                                    "componentTitle": "库位",
+                                    "tag": "metaRelatedSelect",
+                                    "componentName": "locationID",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入库位",
+                                                "required": true
+                                            }
+                                        ],
+                                        "isArea": false,
+                                        "icon": ""
+                                    }
+                                },
+                                {
+                                    "componentId": "materialID",
+                                    "componentTitle": "物料",
+                                    "tag": "metaRelatedSelect",
+                                    "componentName": "materialID",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入物料",
+                                                "required": true
+                                            }
+                                        ],
+                                        "options": []
+                                    }
+                                }
+                            ],
+                            "numItems": 2
+                        }, 
+                        {
+                            "layoutItems": [
+                            	{
+                                    "componentId": "inoutType",
+                                    "componentTitle": "入出库区分",
+                                    "tag": "metaSelect",
+                                    "componentName": "inoutType",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入入出库区分",
+                                                "required": true
+                                            }
+                                        ],
+                                        "isArea": false,
+                                        "icon": ""
+                                    }
+                                },
+                                {
+                                    "componentId": "quantity",
+                                    "componentTitle": "数量",
+                                    "tag": "MetaInputNumber",
+                                    "componentName": "quantity",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入数量",
+                                                "required": true
+                                            }
+                                        ],
+                                        "isArea": false,
+                                        "icon": ""
+                                    }
+                                }                               
+                            ],
+                            "numItems": 2
+                        },
+                        {
+                            "layoutItems": [                            	
+                                {
+                                    "componentId": "unitID",
+                                    "componentTitle": "单位",
+                                    "tag": "metaSelect",
+                                    "componentName": "unitID",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入单位",
+                                                "required": true
+                                            }
+                                        ],
+                                        "options": []
+                                    }
+                                },
+                                {
+                                    "componentId": "serialNum",
+                                    "componentTitle": "序列号",
+                                    "tag": "metaInput",
+                                    "componentName": "serialNum",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入序列号",
+                                                "required": true
+                                            }
+                                        ],
+                                        "options": []
+                                    }
+                                },
+                                {
+                                    "componentId": "remark",
+                                    "componentTitle": "备注",
+                                    "tag": "metaInput",
+                                    "componentName": "remark",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入备注",
+                                                "required": true
+                                            }
+                                        ],
+                                        "isArea": false,
+                                        "icon": ""
+                                    }
+                                }
+                            ],
+                            "numItems": 2
+                        },
+                        {
+                            "layoutItems": [                            	
+                                {
+                                    "componentId": "businessType",
+                                    "componentTitle": "业务类型",
+                                    "tag": "metaSelect",
+                                    "componentName": "businessType",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入业务类型",
+                                                "required": true
+                                            }
+                                        ],
+                                        "options": []
+                                    }
+                                },                               
+                                {
+                                    "componentId": "remark",
+                                    "componentTitle": "备注",
+                                    "tag": "metaInput",
+                                    "componentName": "remark",
+                                    "config": {
+                                        "formRules": [
+                                            {
+                                                "trigger": "blur",
+                                                "message": "请输入备注",
+                                                "required": true
+                                            }
+                                        ],
+                                        "isArea": false,
+                                        "icon": ""
+                                    }
+                                }
+                            ],
+                            "numItems": 2
+                        }            
+                    ]
+                }
+            ],
+            "entityId": "00XRYJ4EG0800",
+            "entity": "wmsStockInOutRecord"
+	    },
+        "description": "出入库记录表FormLayOut定义"
+	}
+]

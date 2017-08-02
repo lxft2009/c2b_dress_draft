@@ -1,0 +1,35 @@
+[
+    {
+		"id":"00XS8KKY80800",
+        "type": "button",
+        "appid": "stock",
+        "parentid": "00XRYJ4EG0800",
+        "name": "wmsStockInOutRecordButtons",
+        "clientType":"pc",
+    	"layoutType":"grid",
+        "objectName": "wmsStockInOutRecord",
+        "layoutJson":{
+        	"configId": "3777c8a2-7d0b-44bd-8165-b09314b51b84",
+            "entity": "wmsStockInOutRecord",
+            "entityId": "00XRYJ4EG0800"            
+        },
+        "description": "出入库记录GridButton定义"
+    },
+    {
+		"id":"00XS958BG0800",
+        "type": "button",
+        "appid": "stock",
+        "parentid": "00XRYJ4EG0800",
+        "name": "wmsStockInOutRecordDetailButtons",
+        "clientType":"pc",
+    	"layoutType":"detail",
+        "objectName": "wmsStockInOutRecord",
+        "layoutJson":{
+        	"configId": "529c551f-aabe-4db2-a26f-bc546892769b",
+            "entity": "wmsStockInOutRecord",
+            "entityId": "00XRYJ4EG0800",
+            "layoutType":"detail"
+        }, 
+        "description": "出入库记录查询详情页Button定义"
+    }
+]

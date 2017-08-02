@@ -1,0 +1,34 @@
+[
+	{
+	    "id": "00XVZH11G0800",
+	    "type": "listviewLayout",
+	    "appid": "stock",
+	    "parentid": "00XRYJ4EG0800",
+	    "objectName": "wmsStockInOutRecord",
+	    "description": "listview布局",
+	    "layoutJson": {
+	    	"entity":"wmsStockInOutRecord",
+	        "entityId":"00XRYJ4EG0800",
+	        "configId":"3777c8a2-7d0b-44bd-8165-b09314b51b84",
+	        "label":"列表视图"
+	    },
+	    "category":"listview"
+	},
+	{
+	    "id": "00XW0199R0800",
+	    "type": "listviewLayout",
+	    "appid": "stock",
+	    "parentid": "00XRYJ4EG0800",
+	    "objectName": "wmsStockInOutRecord",
+	    "description": "settingbutton布局",
+	    "layoutJson": {
+	    	"label": "列表视图",
+        "parentEntity":"wmsStockInOutRecord",
+        "parentEntityId":"00XRYJ4EG0800",
+        "configId":"3777c8a2-7d0b-44bd-8165-b09314b51b84",
+        "entity":"listView",
+        "entityId":"00XRYJ4EG0800"
+	    },
+	    "category":"setting"
+	}
+]

@@ -1,0 +1,107 @@
+﻿[
+	{
+		"objectName": "wmsStockInOutRecord",
+		"fieldName": "inoutID",
+		"type": "validate",
+		"appid": "stock",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			},
+			"size":{
+				"max":50
+			}
+			
+		}
+	},
+	{
+		"objectName": "wmsStockInOutRecord",
+		"fieldName": "warehouseID",
+		"type": "validate",
+		"appid": "stock",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			},
+			"size":{
+				"max":50
+			}
+			
+		}
+	},
+	{
+		"objectName": "wmsStockInOutRecord",
+		"fieldName": "locationID",
+		"type": "validate",
+		"appid": "stock",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			},
+			"size":{
+				"max":50
+			}
+			
+		}
+	},
+	{
+		"objectName": "wmsStockInOutRecord",
+		"fieldName": "materialID",
+		"type": "validate",
+		"appid": "stock",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			},
+			"size":{
+				"max":50
+			}
+			
+		}
+	},
+	{
+		"objectName": "wmsStockInOutRecord",
+		"fieldName": "quantity",
+		"type": "validate",
+		"appid": "stock",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			},
+			"size":{
+				"max":50
+			}
+			
+		}
+	},
+	{
+		"objectName": "wmsStockInOutRecord",
+		"fieldName": "serialNum",
+		"type": "validate",
+		"appid": "stock",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			},
+			"size":{
+				"max":50
+			}
+			
+		}
+	},
+	{
+		"objectName": "wmsStockInOutRecord",
+		"fieldName": "businessType",
+		"type": "validate",
+		"appid": "stock",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			},
+			"size":{
+				"max":50
+			}
+			
+		}
+	}
+]

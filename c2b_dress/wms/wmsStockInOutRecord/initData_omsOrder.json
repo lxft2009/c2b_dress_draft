@@ -1,0 +1,20 @@
+[
+    {
+        "id": "00YDHSKN00800",
+        "type": "wmsStockInOutRecord",
+        "appid": "stock",
+        "inoutID": "00YDJ7B980800",
+        "warehouseID": "00TK5WR000800",
+        "locationID": "00V7TZ0500800",
+        "materialID": "00SC300PG0800",
+        "materialCode": "A101B130001",
+        "materialDesc": "black",
+        "inoutType": "1",
+        "quantity": "100",
+        "unitID": "00S97TKW00800",
+        "serialNum": "001001",
+        "businessType": "1",   
+        "remark": "桑蝉丝",       
+        "is_deleted":false
+    }
+]

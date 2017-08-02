@@ -1,0 +1,16 @@
+[
+    {
+		"id":"00XW3CN3R0800",
+        "type": "tableLayout",
+        "appid": "stock",
+        "parentid": "00XRYJ4EG0800",
+        "name": "wmsStockInOutRecordGridLayout",
+        "objectName": "wmsStockInOutRecord",
+        "layoutJson": {
+                "configId": "3777c8a2-7d0b-44bd-8165-b09314b51b84",
+                "entity": "wmsStockInOutRecord",
+                "entityId": "00XRYJ4EG0800"
+         },
+        "description": "出入库履历tableLayout定义"
+    }
+]

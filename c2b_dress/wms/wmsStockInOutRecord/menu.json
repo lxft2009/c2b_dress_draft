@@ -1,0 +1,10 @@
+[
+	{
+	  "path": "wmsStockInOutRecord/00XRYJ4EG0800/788647651343077377/788691152822865920",
+	  "icon": "fa fa-database",
+	  "name": "出入库履历管理",
+	  "objectName": "wmsStockInOutRecord",
+	  "id": "00XRYJ4EG0800",
+	  "label": "出入库履历管理"
+	}
+]

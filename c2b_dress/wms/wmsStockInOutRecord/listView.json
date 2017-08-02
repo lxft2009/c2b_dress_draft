@@ -1,0 +1,139 @@
+[{
+    "id": "00YDT7ZB80800",
+    "type": "listView",
+    "appid": "stock",
+    "parentid": "00XRYJ4EG0800",
+    "name": "wmsStockInOutRecordListView",
+    "objectName": "wmsStockInOutRecord",
+    "description": "出入库记录表描述",
+    "label": "出入库记录表",
+    "layoutJson": {
+        "whereCondition": {},
+        "columns": [
+           	{
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "inoutID",
+                "ascendingLabel": "Z-A",
+                "label": "入出库ID",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "inoutID"
+            },
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "warehouseIDLabel",
+                "ascendingLabel": "Z-A",
+                "label": "仓库",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "warehouseIDDLabel"
+            },
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "locationIDLabel",
+                "ascendingLabel": "Z-A",
+                "label": "库位",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "locationIDLabel"
+            },
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "materialIDLabel",
+                "ascendingLabel": "Z-A",
+                "label": "物料",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "materialIDLabel"
+            },
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "inoutTypeLabel",
+                "ascendingLabel": "Z-A",
+                "label": "入出库区分",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "inoutTypeLabel"
+            },
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "quantity",
+                "ascendingLabel": "Z-A",
+                "label": "数量",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "quantity"
+            },
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "unitIDLabel",
+                "ascendingLabel": "Z-A",
+                "label": "单位",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "unitIDLabel"
+            },         
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "serialNum",
+                "ascendingLabel": "Z-A",
+                "label": "序列号",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "serialNum"
+            },
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "businessTypeLabel",
+                "ascendingLabel": "Z-A",
+                "label": "业务类型",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "businessTypeLabel"
+            },           
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "remark",
+                "ascendingLabel": "Z-A",
+                "label": "备注",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "remark"
+            }
+        ],
+        "scope": "everything",
+        "limit": 10,
+        "orderBy": [],
+        "page": 1
+    }
+}]
