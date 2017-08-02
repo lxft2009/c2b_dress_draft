@@ -347,11 +347,11 @@
 	{
 	    "type": "metaField",
 	    "name": "quantity",
-	    "fieldType": "string",
+	    "fieldType": "number",
 	    "objectName": "wmsStock",
 	    "parentid": "00X2C5HJ00800",
 		"label": "物料数量",
-		"controllerName":"metaInput",
+		"controllerName":"MetaInputNumber",
 		"appid": "stock",
 		
 		"referenceEntity" : "",

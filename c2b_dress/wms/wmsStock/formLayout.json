@@ -75,7 +75,7 @@
                                 {
                                     "componentId": "quantity",
                                     "componentTitle": "物料数量",
-                                    "tag": "metaInput",
+                                    "tag": "MetaInputNumber",
                                     "componentName": "quantity",
                                     "config": {
                                         "formRules": [
