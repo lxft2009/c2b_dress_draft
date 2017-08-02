@@ -58,36 +58,15 @@
                                 "layoutItems": [
                                     {
                                         "componentId": "styleTypeID",
-                                        "componentTitle": "款式分类id",
+                                        "componentTitle": "款式分类",
                                         "componentName": "styleTypeID",
-                                        "tag": "MetaInput",
+                                        "tag": "metaRelatedSelect",
                                         "config": {
                                             "formRules": [],
                                             "isArea": false,
                                             "icon": ""
                                         }
                                     },
-                                    {
-                                        "componentId": "styleTypeCode",
-                                        "componentTitle": "款式分类代码",
-                                        "componentName": "styleTypeCode",
-                                        "tag": "MetaInput",
-                                        "config": {
-                                            "formRules": [
-                                                {
-                                                    "trigger": "blur",
-                                                    "message": "请输入款式分类代码",
-                                                    "required": true
-                                                }
-                                            ],
-                                            "format": "yyyy-MM-dd"
-                                        }
-                                    }
-                                ],
-                                "numItems": 2
-                            },
-                            {
-                                "layoutItems": [
                                     {
                                         "componentId": "versions",
                                         "componentTitle": "版本",
@@ -104,7 +83,12 @@
                                             "isArea": false,
                                             "icon": ""
                                         }
-                                    },
+                                    }
+                                ],
+                                "numItems": 2
+                            },
+                            {
+                                "layoutItems": [                             
                                     {
                                         "componentId": "status",
                                         "componentTitle": "数据状态",

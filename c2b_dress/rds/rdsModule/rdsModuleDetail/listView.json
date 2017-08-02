@@ -10,18 +10,7 @@
     "label": "模块明细列表ListView",
     "layoutJson": {
       "whereCondition": {},
-      "columns": [
-        {
-          "sortDirection": "ascending",
-          "hidden": false,
-          "sortIndex": 0,
-          "name": "moduleID",
-          "ascendingLabel": "Z-A",
-          "label": "模块ID",
-          "sortable": true,
-          "type": "string",
-          "descendingLabel": "A-Z"
-        },
+      "columns": [   
         {
           "sortDirection": "ascending",
           "hidden": false,

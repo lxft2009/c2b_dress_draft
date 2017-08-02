@@ -19,24 +19,7 @@
                         "useCollapsibleSection": false,
                         "layoutRows": [
                             {
-                                "layoutItems": [
-                                    {
-                                        "componentId": "moduleID",
-                                        "componentTitle": "模块ID",
-                                        "componentName": "moduleID",
-                                        "tag": "MetaInput",
-                                        "config": {
-                                            "formRules": [
-                                                {
-                                                    "trigger": "blur",
-                                                    "message": "请输入模块ID",
-                                                    "required": true
-                                                }
-                                            ],
-                                            "isArea": false,
-                                            "icon": ""
-                                        }
-                                    },
+                                "layoutItems": [                                   
                                     {
                                         "componentId": "moduleDetailCode",
                                         "componentTitle": "模块明细编码",
@@ -52,12 +35,7 @@
                                             ],
                                             "options": []
                                         }
-                                    }
-                                ],
-                                "numItems": 2
-                            },
-                            {
-                                "layoutItems": [
+                                    },
                                     {
                                         "componentId": "mouldeDetailName",
                                         "componentTitle": "模块明细名称",
@@ -74,7 +52,12 @@
                                             "isArea": false,
                                             "icon": ""
                                         }
-                                    },
+                                    }
+                                ],
+                                "numItems": 2
+                            },
+                            {
+                                "layoutItems": [                                   
                                     {
                                         "componentId": "versions",
                                         "componentTitle": "版本",
@@ -89,12 +72,7 @@
                                                 }
                                             ]                                  
                                         }
-                                    }
-                                ],
-                                "numItems": 2
-                            },
-                            {
-                                "layoutItems": [
+                                    },
                                     {
                                         "componentId": "status",
                                         "componentTitle": "数据状态",
@@ -114,7 +92,7 @@
                                     }
                                 ],
                                 "numItems": 2
-                            }                           
+                            }                          
                         ]
                     }                   
                 ]

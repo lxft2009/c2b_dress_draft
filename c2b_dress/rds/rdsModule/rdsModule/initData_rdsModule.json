@@ -4,7 +4,7 @@
         "appid": "module",
         "moduleCode": "177474060290",
         "moduleName": "测试1",
-        "styleTypeID": "17747401",
+        "styleTypeID": "B0",
         "versions": "1",
         "status": "790759338980413440",
         "is_deleted":false
@@ -14,7 +14,7 @@
         "appid": "module",
         "moduleCode": "177474060291",
         "moduleName": "测试2",
-        "styleTypeID": "17747402",
+        "styleTypeID": "A3",
         "versions": "1",
         "status": "790759338980413440",
         "is_deleted":false
@@ -24,10 +24,10 @@
         "appid": "module",
         "moduleCode": "177474060292",
         "moduleName": "测试3",
-        "styleTypeID": "17747403",
+        "styleTypeID": "A2",
         "versions": "1",
         "status": "790759338980413441",
-         "is_deleted":false
+        "is_deleted":false
        
     }
 ]

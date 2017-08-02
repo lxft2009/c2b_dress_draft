@@ -2,7 +2,6 @@
     {
     	"parentid": "795901644578492416",
         "type": "rdsModuleDetail",
-        "moduleID": "12351201",
         "moduleDetailCode": "001",
         "mouldeDetailName": "测试明细1",
         "versions": "1",
@@ -10,8 +9,7 @@
     },
      {
      	"parentid": "795857864718553089",
-        "type": "rdsModuleDetail",
-        "moduleID": "12351202",
+        "type": "rdsModuleDetail",     
         "moduleDetailCode": "002",
         "mouldeDetailName": "测试明细2",
         "versions": "1",
@@ -20,7 +18,6 @@
      {
      	"parentid": "795857864718553088",
         "type": "rdsModuleDetail",
-        "moduleID": "12351203",
         "moduleDetailCode": "003",
         "mouldeDetailName": "测试明细3",
         "versions": "1",
@@ -29,7 +26,6 @@
     {
      	"parentid": "795857864718553090",
         "type": "rdsModuleDetail",
-        "moduleID": "12351203",
         "moduleDetailCode": "004",
         "mouldeDetailName": "测试明细4",
         "versions": "1",

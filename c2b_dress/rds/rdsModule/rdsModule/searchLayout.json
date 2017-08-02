@@ -28,15 +28,8 @@
                         "config": {
                             "size": "small"
                         },
-                        "label": "款式分类id",
+                        "label": "款式分类",
                         "name": "styleTypeID"
-                    },
-                    {
-                        "config": {
-                            "size": "small"
-                        },
-                        "label": "款式分类代码",
-                        "name": "styleTypeCode"
                     }
                 ]
          },

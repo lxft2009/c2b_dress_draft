@@ -1,17 +1,6 @@
 ﻿[
 	{
 		"objectName": "rdsModuleDetail",
-		"fieldName": "moduleID",
-		"type": "validate",
-		"appid": "module",
-		"validateJson": {
-			"required": {
-				"message": "messages.required"
-			}
-		}
-	},
-	{
-		"objectName": "rdsModuleDetail",
 		"fieldName": "moduleDetailCode",
 		"type": "validate",
 		"appid": "module",

@@ -17,10 +17,6 @@
             {
                 "fieldName": "moduleName",
                 "lable": "模块名称"
-            },
-            {
-                "fieldName": "styleTypeCode",
-                "lable": "款式分类代码"
             }
         ],
         "title": "模块管理"
