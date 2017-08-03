@@ -43,18 +43,6 @@
           "sortable": true,
           "type": "string",
           "descendingLabel": "A-Z"
-        },
-        {
-          "sortDirection": "ascending",
-          "hidden": false,
-          "sortIndex": 0,
-          "name": "statusLabel",
-          "ascendingLabel": "Z-A",
-          "label": "数据状态",
-          "sortable": true,
-          "type": "string",
-          "descendingLabel": "A-Z",
-          "selectListItem": "statusLabel"
         }
       ],
       "scope": "everything",

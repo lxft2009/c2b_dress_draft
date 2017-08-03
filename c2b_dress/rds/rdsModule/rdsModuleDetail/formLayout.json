@@ -72,23 +72,6 @@
                                                 }
                                             ]                                  
                                         }
-                                    },
-                                    {
-                                        "componentId": "status",
-                                        "componentTitle": "数据状态",
-                                        "componentName": "status",
-                                        "tag": "MetaSelect",
-                                        "config": {
-                                            "formRules": [
-                                                {
-                                                    "trigger": "blur",
-                                                    "message": "请输入数据状态",
-                                                    "required": true
-                                                }
-                                            ],
-                                            "isArea": false,
-                                            "icon": ""
-                                        }
                                     }
                                 ],
                                 "numItems": 2
