@@ -2,7 +2,7 @@
 	{
 		"id": "00TN5YPFR0800",
         "type": "metaField",
-        "name": "id",
+        "name": "materialTypeCode",
         "fieldType": "string",
         "objectName": "rdsMaterialType",
         "parentid": "00RN2QVZ80800",

@@ -15,13 +15,13 @@
                     "sortDirection": "ascending",
                     "hidden": false,
                     "sortIndex": 0,
-                    "name": "id",
+                    "name": "materialTypeCode",
                     "ascendingLabel": "Z-A",
                     "label": "物料分类编码",
                     "sortable": true,
                     "type": "string",
                     "descendingLabel": "A-Z",
-                    "selectListItem": "id"
+                    "selectListItem": "materialTypeCode"
                 },
                 {
                     "sortDirection": "ascending",
@@ -74,7 +74,7 @@
                 
             ],
             "scope": "everything",
-            "limit": 10,
+            "limit": 1000,
             "orderBy": [],
             "page": 1
         }

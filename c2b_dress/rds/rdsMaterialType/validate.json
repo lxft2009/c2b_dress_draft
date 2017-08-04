@@ -1,7 +1,7 @@
 ﻿[
 	{
 		"objectName": "rdsMaterialType",
-		"fieldName": "id",
+		"fieldName": "materialTypeCode",
 		"type": "validate",
 		"appid": "material",
 		"validateJson": {

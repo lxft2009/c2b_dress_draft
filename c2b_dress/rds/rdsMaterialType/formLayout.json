@@ -19,10 +19,10 @@
                         {
                             "layoutItems": [                            	
                                 {
-                                    "componentId": "id",
+                                    "componentId": "materialTypeCode",
                                     "componentTitle": "物料分类编码",
                                     "tag": "MetaInput",
-                                    "componentName": "id",
+                                    "componentName": "materialTypeCode",
                                     "config": {
                                         "formRules": [
                                             {
