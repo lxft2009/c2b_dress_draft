@@ -71,7 +71,7 @@
                                         "componentId": "versions",
                                         "componentTitle": "版本",
                                         "componentName": "versions",
-                                        "tag": "MetaInputNumber",
+                                        "tag": "MetaInput",
                                         "config": {
                                             "formRules": [
                                                 {

@@ -202,7 +202,7 @@
         "objectName": "rdsModule",
         "parentid": "790868992909643776",
         "label": "版本",
-        "controllerName":"MetaInputNumber",
+        "controllerName":"MetaInput",
         "appid": "module",
                
         "defaultValue": "1",
