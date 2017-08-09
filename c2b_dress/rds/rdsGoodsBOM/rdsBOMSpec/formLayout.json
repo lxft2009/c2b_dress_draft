@@ -1,0 +1,624 @@
+[
+    {
+		"id":"012VGGV7G0800",
+        "type": "formLayout",
+        "appid": "rds",
+        "parentid": "011PBF8QR0800",
+        "name": "rdsBOMSpecFormLayout",
+        "objectName": "rdsBOMSpec",
+        "layoutJson":{
+                "gutterType": "two-row",
+                "inline": false,
+                "labelPosition": "top",
+                "configId": "870dcf81-a220-4558-81d2-f2d21a8520c4",
+                "entityId": "011PBF8QR0800",
+                "entity": "rdsBOMSpec",
+                "ColumnLayout": [
+                    {
+                        "heading": "",
+                        "useCollapsibleSection": false,
+                        "layoutRows": [
+                            {
+                                "layoutItems": [                                   
+                                    {
+                                        "componentId": "seq",
+                                        "componentTitle": "序号",
+                                        "componentName": "seq",
+                                        "tag": "MetaInput",
+                                        "config": {
+                                            "formRules": [
+                                                {
+                                                    "trigger": "blur",
+                                                    "message": "请输入序号",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "options": []
+                                        }
+                                    },
+                                    {
+                                        "componentId": "specCode",
+                                        "componentTitle": "规格代码",
+                                        "componentName": "specCode",
+                                        "tag": "MetaInput",
+                                        "config": {
+                                            "formRules": [
+                                            	{
+                                                    "trigger": "blur",
+                                                    "message": "请输入规格代码",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "isArea": false,
+                                            "icon": ""
+                                        }
+                                    }
+                                ],
+                                "numItems": 2
+                            },
+                            {
+                                "layoutItems": [                                   
+                                    {
+                                        "componentId": "specName",
+                                        "componentTitle": "规格名称",
+                                        "componentName": "specName",
+                                        "tag": "MetaInput",
+                                        "config": {
+                                            "formRules": [
+                                                {
+                                                    "trigger": "blur",
+                                                    "message": "请输入规格名称",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "options": []
+                                        }
+                                    },
+                                    {
+                                        "componentId": "specDescription",
+                                        "componentTitle": "规格描述",
+                                        "componentName": "specDescription",
+                                        "tag": "MetaInput",
+                                        "config": {
+                                            "formRules": [
+                                            	{
+                                                    "trigger": "blur",
+                                                    "message": "请输入规格描述",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "isArea": false,
+                                            "icon": ""
+                                        }
+                                    }
+                                ],
+                                "numItems": 2
+                            }                        
+                        ]
+                    },
+                    {
+                        "heading": "",
+                        "useCollapsibleSection": false,
+                        "layoutRows": [
+                            {
+                                "layoutItems": [                                   
+                                    {
+                                        "componentId": "clothesLength",
+                                        "componentTitle": "衣长",
+                                        "componentName": "clothesLength",
+                                        "tag": "MetaInput",
+                                        "config": {
+                                            "formRules": [
+                                                {
+                                                    "trigger": "blur",
+                                                    "message": "请输入衣长",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "options": []
+                                        }
+                                    },
+                                    {
+                                        "componentId": "bust",
+                                        "componentTitle": "胸围",
+                                        "componentName": "bust",
+                                        "tag": "MetaInput",
+                                        "config": {
+                                            "formRules": [
+                                            	{
+                                                    "trigger": "blur",
+                                                    "message": "请输入胸围",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "isArea": false,
+                                            "icon": ""
+                                        }
+                                    }
+                                ],
+                                "numItems": 2
+                            },
+                            {
+                                "layoutItems": [                                   
+                                    {
+                                        "componentId": "waistThread",
+                                        "componentTitle": "腰围线",
+                                        "componentName": "waistThread",
+                                        "tag": "MetaInput",
+                                        "config": {
+                                            "formRules": [
+                                                {
+                                                    "trigger": "blur",
+                                                    "message": "请输入腰围线",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "options": []
+                                        }
+                                    },
+                                    {
+                                        "componentId": "waist",
+                                        "componentTitle": "腰围",
+                                        "componentName": "waist",
+                                        "tag": "MetaInput",
+                                        "config": {
+                                            "formRules": [
+                                            	{
+                                                    "trigger": "blur",
+                                                    "message": "请输入腰围",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "isArea": false,
+                                            "icon": ""
+                                        }
+                                    }
+                                ],
+                                "numItems": 2
+                            },
+                            {
+                                "layoutItems": [                                   
+                                    {
+                                        "componentId": "shoulderWidth",
+                                        "componentTitle": "肩宽",
+                                        "componentName": "shoulderWidth",
+                                        "tag": "MetaInput",
+                                        "config": {
+                                            "formRules": [
+                                                {
+                                                    "trigger": "blur",
+                                                    "message": "请输入肩宽",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "options": []
+                                        }
+                                    },
+                                    {
+                                        "componentId": "lowerHem",
+                                        "componentTitle": "下摆",
+                                        "componentName": "lowerHem",
+                                        "tag": "MetaInput",
+                                        "config": {
+                                            "formRules": [
+                                            	{
+                                                    "trigger": "blur",
+                                                    "message": "请输入下摆",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "isArea": false,
+                                            "icon": ""
+                                        }
+                                    }
+                                ],
+                                "numItems": 2
+                            },
+                            {
+                                "layoutItems": [                                   
+                                    {
+                                        "componentId": "sleeveLength",
+                                        "componentTitle": "袖长",
+                                        "componentName": "sleeveLength",
+                                        "tag": "MetaInput",
+                                        "config": {
+                                            "formRules": [
+                                                {
+                                                    "trigger": "blur",
+                                                    "message": "请输入袖长",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "options": []
+                                        }
+                                    },
+                                    {
+                                        "componentId": "sleeveWidth",
+                                        "componentTitle": "袖肥",
+                                        "componentName": "sleeveWidth",
+                                        "tag": "MetaInput",
+                                        "config": {
+                                            "formRules": [
+                                            	{
+                                                    "trigger": "blur",
+                                                    "message": "请输入袖肥",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "isArea": false,
+                                            "icon": ""
+                                        }
+                                    }
+                                ],
+                                "numItems": 2
+                            },
+                            {
+                                "layoutItems": [                                   
+                                    {
+                                        "componentId": "sleeveOpening",
+                                        "componentTitle": "袖口",
+                                        "componentName": "sleeveOpening",
+                                        "tag": "MetaInput",
+                                        "config": {
+                                            "formRules": [
+                                                {
+                                                    "trigger": "blur",
+                                                    "message": "请输入袖口",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "options": []
+                                        }
+                                    },
+                                    {
+                                        "componentId": "armhole",
+                                        "componentTitle": "袖笼深",
+                                        "componentName": "armhole",
+                                        "tag": "MetaInput",
+                                        "config": {
+                                            "formRules": [
+                                            	{
+                                                    "trigger": "blur",
+                                                    "message": "请输入袖笼深",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "isArea": false,
+                                            "icon": ""
+                                        }
+                                    }
+                                ],
+                                "numItems": 2
+                            },
+                            {
+                                "layoutItems": [                                   
+                                    {
+                                        "componentId": "backCrossCollar",
+                                        "componentTitle": "后横领",
+                                        "componentName": "backCrossCollar",
+                                        "tag": "MetaInput",
+                                        "config": {
+                                            "formRules": [
+                                                {
+                                                    "trigger": "blur",
+                                                    "message": "请输入后横领",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "options": []
+                                        }
+                                    },
+                                    {
+                                        "componentId": "frontBandCollar",
+                                        "componentTitle": "前直领",
+                                        "componentName": "frontBandCollar",
+                                        "tag": "MetaInput",
+                                        "config": {
+                                            "formRules": [
+                                            	{
+                                                    "trigger": "blur",
+                                                    "message": "请输入前直领",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "isArea": false,
+                                            "icon": ""
+                                        }
+                                    }
+                                ],
+                                "numItems": 2
+                            },
+                            {
+                                "layoutItems": [                                   
+                                    {
+                                        "componentId": "collarLength",
+                                        "componentTitle": "领长",
+                                        "componentName": "collarLength",
+                                        "tag": "MetaInput",
+                                        "config": {
+                                            "formRules": [
+                                                {
+                                                    "trigger": "blur",
+                                                    "message": "请输入领长",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "options": []
+                                        }
+                                    },
+                                    {
+                                        "componentId": "pocketLength",
+                                        "componentTitle": "袋长",
+                                        "componentName": "pocketLength",
+                                        "tag": "MetaInput",
+                                        "config": {
+                                            "formRules": [
+                                            	{
+                                                    "trigger": "blur",
+                                                    "message": "请输入袋长",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "isArea": false,
+                                            "icon": ""
+                                        }
+                                    }
+                                ],
+                                "numItems": 2
+                            },
+                            {
+                                "layoutItems": [                                   
+                                    {
+                                        "componentId": "zipperLength",
+                                        "componentTitle": "拉链长",
+                                        "componentName": "zipperLength",
+                                        "tag": "MetaInput",
+                                        "config": {
+                                            "formRules": [
+                                                {
+                                                    "trigger": "blur",
+                                                    "message": "请输入拉链长",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "options": []
+                                        }
+                                    },
+                                    {
+                                        "componentId": "beltLength",
+                                        "componentTitle": "腰带长",
+                                        "componentName": "beltLength",
+                                        "tag": "MetaInput",
+                                        "config": {
+                                            "formRules": [
+                                            	{
+                                                    "trigger": "blur",
+                                                    "message": "请输入腰带长",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "isArea": false,
+                                            "icon": ""
+                                        }
+                                    }
+                                ],
+                                "numItems": 2
+                            },
+                            {
+                                "layoutItems": [                                   
+                                    {
+                                        "componentId": "hoodHeight",
+                                        "componentTitle": "帽高",
+                                        "componentName": "hoodHeight",
+                                        "tag": "MetaInput",
+                                        "config": {
+                                            "formRules": [
+                                                {
+                                                    "trigger": "blur",
+                                                    "message": "请输入帽高",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "options": []
+                                        }
+                                    },
+                                    {
+                                        "componentId": "hoodWidth",
+                                        "componentTitle": "帽宽",
+                                        "componentName": "hoodWidth",
+                                        "tag": "MetaInput",
+                                        "config": {
+                                            "formRules": [
+                                            	{
+                                                    "trigger": "blur",
+                                                    "message": "请输入帽宽",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "isArea": false,
+                                            "icon": ""
+                                        }
+                                    }
+                                ],
+                                "numItems": 2
+                            },
+                            {
+                                "layoutItems": [                                   
+                                    {
+                                        "componentId": "outseam",
+                                        "componentTitle": "裤长",
+                                        "componentName": "outseam",
+                                        "tag": "MetaInput",
+                                        "config": {
+                                            "formRules": [
+                                                {
+                                                    "trigger": "blur",
+                                                    "message": "请输入裤长",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "options": []
+                                        }
+                                    },
+                                    {
+                                        "componentId": "hipline",
+                                        "componentTitle": "臀围",
+                                        "componentName": "hipline",
+                                        "tag": "MetaInput",
+                                        "config": {
+                                            "formRules": [
+                                            	{
+                                                    "trigger": "blur",
+                                                    "message": "请输入臀围",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "isArea": false,
+                                            "icon": ""
+                                        }
+                                    }
+                                ],
+                                "numItems": 2
+                            },
+                            {
+                                "layoutItems": [                                   
+                                    {
+                                        "componentId": "midRange",
+                                        "componentTitle": "中裆",
+                                        "componentName": "midRange",
+                                        "tag": "MetaInput",
+                                        "config": {
+                                            "formRules": [
+                                                {
+                                                    "trigger": "blur",
+                                                    "message": "请输入中裆",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "options": []
+                                        }
+                                    },
+                                    {
+                                        "componentId": "rise",
+                                        "componentTitle": "直裆",
+                                        "componentName": "rise",
+                                        "tag": "MetaInput",
+                                        "config": {
+                                            "formRules": [
+                                            	{
+                                                    "trigger": "blur",
+                                                    "message": "请输入直裆",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "isArea": false,
+                                            "icon": ""
+                                        }
+                                    }
+                                ],
+                                "numItems": 2
+                            },
+                            {
+                                "layoutItems": [                                   
+                                    {
+                                        "componentId": "legOpening",
+                                        "componentTitle": "脚口",
+                                        "componentName": "legOpening",
+                                        "tag": "MetaInput",
+                                        "config": {
+                                            "formRules": [
+                                                {
+                                                    "trigger": "blur",
+                                                    "message": "请输入脚口",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "options": []
+                                        }
+                                    },
+                                    {
+                                        "componentId": "skirtLength",
+                                        "componentTitle": "裙长",
+                                        "componentName": "skirtLength",
+                                        "tag": "MetaInput",
+                                        "config": {
+                                            "formRules": [
+                                            	{
+                                                    "trigger": "blur",
+                                                    "message": "请输入裙长",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "isArea": false,
+                                            "icon": ""
+                                        }
+                                    }
+                                ],
+                                "numItems": 2
+                            },
+                            {
+                                "layoutItems": [                                   
+                                    {
+                                        "componentId": "backWidth",
+                                        "componentTitle": "后背宽",
+                                        "componentName": "backWidth",
+                                        "tag": "MetaInput",
+                                        "config": {
+                                            "formRules": [
+                                                {
+                                                    "trigger": "blur",
+                                                    "message": "请输入后背宽",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "options": []
+                                        }
+                                    },
+                                    {
+                                        "componentId": "frontCrossCollar",
+                                        "componentTitle": "前横领",
+                                        "componentName": "frontCrossCollar",
+                                        "tag": "MetaInput",
+                                        "config": {
+                                            "formRules": [
+                                            	{
+                                                    "trigger": "blur",
+                                                    "message": "请输入前横领",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "isArea": false,
+                                            "icon": ""
+                                        }
+                                    }
+                                ],
+                                "numItems": 2
+                            },
+                            {
+                                "layoutItems": [                                   
+                                    {
+                                        "componentId": "frontCross",
+                                        "componentTitle": "前胸宽",
+                                        "componentName": "frontCross",
+                                        "tag": "MetaInput",
+                                        "config": {
+                                            "formRules": [
+                                                {
+                                                    "trigger": "blur",
+                                                    "message": "请输入前胸宽",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "options": []
+                                        }
+                                    }
+                                ],
+                                "numItems": 2
+                            }                         
+                        ]
+                    }                   
+                ]
+            },
+        "description": "BOM规格FormLayOut定义"
+	}
+]

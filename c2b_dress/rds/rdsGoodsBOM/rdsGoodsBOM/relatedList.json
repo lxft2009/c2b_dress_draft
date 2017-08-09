@@ -1,0 +1,60 @@
+[{
+    "id": "011NX3HD00800",
+    "type": "relatedList",
+    "appid": "rds",
+    "parentid": "011MNWYA80800",
+    "objectName": "rdsGoodsBOM",
+    "name":"rdsGoodsBOMDetailRelatedList",
+    "description": "成品BOM详情页相关子表布局",
+    "layoutJson": {
+    	"layoutType": "tab",
+        "items": [
+        	{
+                "listViewId": "012AHGK9G0800",
+                "linkIdName": "parentid",
+                "Editable":true,
+                "buttonSection": {
+                    "configId": "31d124a9-5abc-47aa-8454-28e172f7f6b3",
+                    "btns": [
+                        {
+                            "name": "新建",
+                            "type": "new"
+                        }
+                    ],
+                    "entityId": "011PBF8QR0800",
+                    "entity": "rdsBOMSpec"
+                },
+                "configId": "31d124a9-5abc-47aa-8454-28e172f7f6b3",
+                "parentEntity": "rdsGoodsBOM",
+                "parentEntityId": "011MNWYA80800",
+                "entity": "rdsBOMSpec",
+                "entityId": "011PBF8QR0800",
+                "label": "BOM规格表",
+                "iconClass": "el-icon-star-on"
+            },
+            {
+                "listViewId": "011NY19Y80800",
+                "linkIdName": "parentid",
+                "Editable":true,
+                "buttonSection": {
+                    "configId": "7ef50c9f-cc02-4250-8edb-842d952be231",
+                    "btns": [
+                        {
+                            "name": "新建",
+                            "type": "new"
+                        }
+                    ],
+                    "entityId": "011NY8RP00800",
+                    "entity": "rdsBOM"
+                },
+                "configId": "7ef50c9f-cc02-4250-8edb-842d952be231",
+                "parentEntity": "rdsGoodsBOM",
+                "parentEntityId": "011MNWYA80800",
+                "entity": "rdsBOM",
+                "entityId": "011NY8RP00800",
+                "label": "BOM清单表",
+                "iconClass": "el-icon-star-on"
+            }                    
+        ]
+    }
+}]

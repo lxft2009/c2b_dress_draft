@@ -1,0 +1,57 @@
+﻿[
+	{
+		"objectName": "rdsGoodsBOM",
+		"fieldName": "styleID",
+		"type": "validate",
+		"appid": "rds",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			}
+		}
+	},
+	{
+		"objectName": "rdsGoodsBOM",
+		"fieldName": "goodsName",
+		"type": "validate",
+		"appid": "rds",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			}
+		}
+	},
+	{
+		"objectName": "rdsGoodsBOM",
+		"fieldName": "colorID",
+		"type": "validate",
+		"appid": "rds",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			}
+		}
+	},
+	{
+		"objectName": "rdsGoodsBOM",
+		"fieldName": "isStandard",
+		"type": "validate",
+		"appid": "rds",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			}
+		}
+	},
+	{
+		"objectName": "rdsGoodsBOM",
+		"fieldName": "versions",
+		"type": "validate",
+		"appid": "rds",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			}
+		}
+	}
+]

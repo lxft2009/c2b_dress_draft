@@ -1,0 +1,68 @@
+﻿[
+	{
+		"objectName": "rdsBOM",
+		"fieldName": "bomCategory",
+		"type": "validate",
+		"appid": "rds",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			}
+		}
+	},
+	{
+		"objectName": "rdsBOM",
+		"fieldName": "moduleID",
+		"type": "validate",
+		"appid": "rds",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			}
+		}
+	},
+	{
+		"objectName": "rdsBOM",
+		"fieldName": "elementid",
+		"type": "validate",
+		"appid": "rds",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			}
+		}
+	},
+	{
+		"objectName": "rdsBOM",
+		"fieldName": "elementQTY",
+		"type": "validate",
+		"appid": "rds",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			}
+		}
+	},
+	{
+		"objectName": "rdsBOM",
+		"fieldName": "materialID",
+		"type": "validate",
+		"appid": "rds",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			}
+		}
+	},
+	{
+		"objectName": "rdsBOM",
+		"fieldName": "consumption",
+		"type": "validate",
+		"appid": "rds",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			}
+		}
+	}
+]

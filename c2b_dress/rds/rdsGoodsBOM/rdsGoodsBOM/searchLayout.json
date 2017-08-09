@@ -1,0 +1,38 @@
+﻿[{
+  "id":"011PC46480800",	
+  "parentid":"011MNWYA80800",
+  "appid": "rds",
+  "objectName": "rdsGoodsBOM",
+  "type": "searchLayout",
+  "name": "rdsGoodsBOMSearchLayout",
+  "layoutJson": {
+        		"configId": "32e3e77e-7d20-4ac0-95f5-52074958023a",
+                "entityId": "011MNWYA80800",
+                "entity": "rdsGoodsBOM",
+        		"columns":[
+                    {
+                        "config": {
+                            "size": "small"
+                        },
+                        "label": "款式",
+                        "name": "styleID"
+                    },
+                    {
+                        "config": {
+                            "size": "small"
+                        },
+                        "label": "成品名称",
+                        "name": "goodsName"
+                    },
+                    {
+                        "config": {
+                            "size": "small"
+                        },
+                        "label": "颜色",
+                        "name": "colorID"
+                    }
+                ]
+         },
+        "description": "成品BOMsearchLayout定义"
+}
+]

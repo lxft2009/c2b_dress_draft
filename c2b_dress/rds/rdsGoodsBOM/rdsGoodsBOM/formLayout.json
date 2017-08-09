@@ -1,0 +1,170 @@
+[
+    {
+		"id":"011NCTQGG0800",
+        "type": "formLayout",
+        "appid": "rds",
+        "parentid": "011MNWYA80800",
+        "name": "rdsGoodsBOMFormLayout",
+        "objectName": "rdsGoodsBOM",
+        "layoutJson":{
+                "gutterType": "two-row",
+                "inline": false,
+                "labelPosition": "top",
+                "configId": "19578402-7401-49c7-a818-2d5d0a13c4c8",
+                "ColumnLayout": [
+                    {
+                        "heading": "",
+                        "useCollapsibleSection": false,
+                        "layoutRows": [
+                            {
+                                "layoutItems": [
+                                    {
+                                        "componentId": "bomCode",
+                                        "componentTitle": "BOM编码",
+                                        "componentName": "bomCode",
+                                        "tag": "MetaInput",
+                                        "config": {
+                                            "formRules": [
+                                                {
+                                                    "trigger": "blur",
+                                                    "message": "请输入BOM编码",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "isArea": false,
+                                            "icon": ""
+                                        }
+                                    },
+                                    {
+                                        "componentId": "styleID",
+                                        "componentTitle": "款式",
+                                        "componentName": "styleID",
+                                        "tag": "metaRelatedSelect",
+                                        "config": {
+                                            "formRules": [
+                                                {
+                                                    "trigger": "blur",
+                                                    "message": "请选择款式",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "options": []
+                                        }
+                                    }
+                                ],
+                                "numItems": 2
+                            },
+                            {
+                                "layoutItems": [
+                                    {
+                                        "componentId": "goodsName",
+                                        "componentTitle": "成品名称",
+                                        "componentName": "goodsName",
+                                        "tag": "MetaInput",
+                                        "config": {
+                                            "formRules": [],
+                                            "isArea": false,
+                                            "icon": ""
+                                        }
+                                    },
+                                    {
+                                        "componentId": "colorID",
+                                        "componentTitle": "颜色",
+                                        "componentName": "colorID",
+                                        "tag": "metaRelatedSelect",
+                                        "config": {
+                                            "formRules": [
+                                                {
+                                                    "trigger": "blur",
+                                                    "message": "请输入颜色",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "isArea": false,
+                                            "icon": ""
+                                        }
+                                    }
+                                ],
+                                "numItems": 2
+                            },
+                            {
+                                "layoutItems": [
+                                    {
+                                        "componentId": "price",
+                                        "componentTitle": "价格",
+                                        "componentName": "price",
+                                        "tag": "MetaInputDecimals",
+                                        "config": {
+                                            "formRules": [],
+                                            "isArea": false,
+                                            "icon": ""
+                                        }
+                                    },
+                                    {
+                                        "componentId": "isStandard",
+                                        "componentTitle": "是否标准",
+                                        "componentName": "isStandard",
+                                        "tag": "MetaSelect",
+                                        "config": {
+                                            "formRules": [
+                                                {
+                                                    "trigger": "blur",
+                                                    "message": "请输入是否标准",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "isArea": false,
+                                            "icon": ""
+                                        }
+                                    }
+                                ],
+                                "numItems": 2
+                            },
+                            {
+                                "layoutItems": [ 
+                                	{
+                                        "componentId": "versions",
+                                        "componentTitle": "版本",
+                                        "componentName": "versions",
+                                        "tag": "MetaInput",
+                                        "config": {
+                                            "formRules": [
+                                                {
+                                                    "trigger": "blur",
+                                                    "message": "请输入版本",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "isArea": false,
+                                            "icon": ""
+                                        }
+                                    },                            
+                                    {
+                                        "componentId": "status",
+                                        "componentTitle": "数据状态",
+                                        "componentName": "status",
+                                        "tag": "MetaSelect",
+                                        "config": {
+                                            "formRules": [
+                                                {
+                                                    "trigger": "blur",
+                                                    "message": "请输入数据状态",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "isArea": false,
+                                            "icon": ""
+                                        }
+                                    }
+                                ],
+                                "numItems": 2
+                            }
+                        ]
+                    }
+                ],
+                "entityId": "011MNWYA80800",
+                "entity": "rdsGoodsBOM"
+            },
+        "description": "成品BOM主表FormLayOut定义"
+	}
+]

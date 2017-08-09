@@ -1,0 +1,34 @@
+[
+	{
+	    "id": "011NR0YTG0800",
+	    "type": "listviewLayout",
+	    "appid": "rds",
+	    "parentid": "011MNWYA80800",
+	    "objectName": "rdsGoodsBOM",
+	    "description": "listview布局",
+	    "layoutJson": {
+	    	"entity":"rdsGoodsBOM",
+	        "entityId":"011MNWYA80800",
+	        "configId":"32e3e77e-7d20-4ac0-95f5-52074958023a",
+	        "label":"列表视图"
+	    },
+	    "category":"listview"
+	},
+	{
+	    "id": "011NRF95R0800",
+	    "type": "listviewLayout",
+	    "appid": "rds",
+	    "parentid": "011MNWYA80800",
+	    "objectName": "rdsGoodsBOM",
+	    "description": "settingbutton布局",
+	    "layoutJson": {
+	    	"label": "列表视图",
+        "parentEntity":"rdsGoodsBOM",
+        "parentEntityId":"011MNWYA80800",
+        "configId":"32e3e77e-7d20-4ac0-95f5-52074958023a",
+        "entity":"listView",
+        "entityId":"011MNWYA80800"
+	    },
+	    "category":"setting"
+	}
+]

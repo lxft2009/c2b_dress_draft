@@ -1,0 +1,16 @@
+[
+    {
+		"id":"011PDQCGG0800",
+        "type": "tableLayout",
+        "appid": "rds",
+        "parentid": "011MNWYA80800",
+        "name": "rdsGoodsBOMGridLayout",
+        "objectName": "rdsGoodsBOM",
+        "layoutJson": {
+                "configId": "32e3e77e-7d20-4ac0-95f5-52074958023a",
+                "entityId": "011MNWYA80800",
+                "entity": "rdsGoodsBOM"
+         },
+        "description": "成品BOMtableLayout定义"
+    }
+]

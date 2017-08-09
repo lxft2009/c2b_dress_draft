@@ -1,0 +1,120 @@
+[
+{
+	"id": "011NY19Y80800",
+    "appid": "rds",
+    "name": "rdsBOMLitView",
+    "objectName": "rdsBOM",
+    "parentid": "011NY8RP00800",
+    "type": "listView",
+    "description": "BOM清单列表ListView",
+    "label": "BOM清单列表ListView",
+    "layoutJson": {
+      "whereCondition": {},
+      "columns": [   
+        {
+          "sortDirection": "ascending",
+          "hidden": false,
+          "sortIndex": 0,
+          "name": "lineNum",
+          "ascendingLabel": "Z-A",
+          "label": "行项目号",
+          "sortable": true,
+          "type": "string",
+          "descendingLabel": "A-Z"
+        },
+        {
+          "sortDirection": "ascending",
+          "hidden": false,
+          "sortIndex": 0,
+          "name": "bomCategory",
+          "ascendingLabel": "Z-A",
+          "label": "BOM品类",
+          "sortable": true,
+          "type": "string",
+          "descendingLabel": "A-Z"
+        },
+        {
+          "sortDirection": "ascending",
+          "hidden": false,
+          "sortIndex": 0,
+          "name": "moduleIDLabel",
+          "ascendingLabel": "Z-A",
+          "label": "模块",
+          "sortable": true,
+          "type": "string",
+          "descendingLabel": "A-Z"
+        },
+        {
+          "sortDirection": "ascending",
+          "hidden": false,
+          "sortIndex": 0,
+          "name": "elementidLabel",
+          "ascendingLabel": "Z-A",
+          "label": "设计元素",
+          "sortable": true,
+          "type": "string",
+          "descendingLabel": "A-Z"
+        },
+        {
+          "sortDirection": "ascending",
+          "hidden": false,
+          "sortIndex": 0,
+          "name": "elementQTY",
+          "ascendingLabel": "Z-A",
+          "label": "设计元素数量",
+          "sortable": true,
+          "type": "string",
+          "descendingLabel": "A-Z"
+        },
+        {
+          "sortDirection": "ascending",
+          "hidden": false,
+          "sortIndex": 0,
+          "name": "materialIDLabel",
+          "ascendingLabel": "Z-A",
+          "label": "物料",
+          "sortable": true,
+          "type": "string",
+          "descendingLabel": "A-Z"
+        },
+        {
+          "sortDirection": "ascending",
+          "hidden": false,
+          "sortIndex": 0,
+          "name": "consumption",
+          "ascendingLabel": "Z-A",
+          "label": "用量",
+          "sortable": true,
+          "type": "string",
+          "descendingLabel": "A-Z"
+        },
+        {
+          "sortDirection": "ascending",
+          "hidden": false,
+          "sortIndex": 0,
+          "name": "unitLabel",
+          "ascendingLabel": "Z-A",
+          "label": "单位",
+          "sortable": true,
+          "type": "string",
+          "descendingLabel": "A-Z"
+        },
+        {
+          "sortDirection": "ascending",
+          "hidden": false,
+          "sortIndex": 0,
+          "name": "replaceableLabel",
+          "ascendingLabel": "Z-A",
+          "label": "允许替换",
+          "sortable": true,
+          "type": "string",
+          "descendingLabel": "A-Z"
+        }
+      ],
+      "scope": "everything",
+      "limit": 10,
+      "orderBy": [],
+      "page": 1
+    }
+}
+]

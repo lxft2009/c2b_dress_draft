@@ -1,0 +1,362 @@
+[
+{
+	"id": "012AHGK9G0800",
+    "appid": "rds",
+    "name": "rdsBOMSpecListView",
+    "objectName": "rdsBOMSpec",
+    "parentid": "011PBF8QR0800",
+    "type": "listView",
+    "description": "BOM规格表ListView",
+    "label": "BOM规格表ListView",
+    "layoutJson": {
+      "whereCondition": {},
+      "columns": [   
+        {
+          "sortDirection": "ascending",
+          "hidden": false,
+          "sortIndex": 0,
+          "name": "seq",
+          "ascendingLabel": "Z-A",
+          "label": "序号",
+          "sortable": true,
+          "type": "string",
+          "descendingLabel": "A-Z"
+        },
+        {
+          "sortDirection": "ascending",
+          "hidden": false,
+          "sortIndex": 0,
+          "name": "specCode",
+          "ascendingLabel": "Z-A",
+          "label": "规格代码",
+          "sortable": true,
+          "type": "string",
+          "descendingLabel": "A-Z"
+        },
+        {
+          "sortDirection": "ascending",
+          "hidden": false,
+          "sortIndex": 0,
+          "name": "specName",
+          "ascendingLabel": "Z-A",
+          "label": "规格名称",
+          "sortable": true,
+          "type": "string",
+          "descendingLabel": "A-Z"
+        },
+        {
+          "sortDirection": "ascending",
+          "hidden": false,
+          "sortIndex": 0,
+          "name": "specDescription",
+          "ascendingLabel": "Z-A",
+          "label": "规格描述",
+          "sortable": true,
+          "type": "string",
+          "descendingLabel": "A-Z"
+        },
+        {
+          "sortDirection": "ascending",
+          "hidden": false,
+          "sortIndex": 0,
+          "name": "clothesLength",
+          "ascendingLabel": "Z-A",
+          "label": "衣长",
+          "sortable": true,
+          "type": "string",
+          "descendingLabel": "A-Z"
+        },
+        {
+          "sortDirection": "ascending",
+          "hidden": false,
+          "sortIndex": 0,
+          "name": "bust",
+          "ascendingLabel": "Z-A",
+          "label": "胸围",
+          "sortable": true,
+          "type": "string",
+          "descendingLabel": "A-Z"
+        },
+        {
+          "sortDirection": "ascending",
+          "hidden": false,
+          "sortIndex": 0,
+          "name": "waistThread",
+          "ascendingLabel": "Z-A",
+          "label": "腰围线",
+          "sortable": true,
+          "type": "string",
+          "descendingLabel": "A-Z"
+        },
+        {
+          "sortDirection": "ascending",
+          "hidden": false,
+          "sortIndex": 0,
+          "name": "waist",
+          "ascendingLabel": "Z-A",
+          "label": "腰围",
+          "sortable": true,
+          "type": "string",
+          "descendingLabel": "A-Z"
+        },
+        {
+          "sortDirection": "ascending",
+          "hidden": false,
+          "sortIndex": 0,
+          "name": "shoulderWidth",
+          "ascendingLabel": "Z-A",
+          "label": "肩宽",
+          "sortable": true,
+          "type": "string",
+          "descendingLabel": "A-Z"
+        },
+        {
+          "sortDirection": "ascending",
+          "hidden": false,
+          "sortIndex": 0,
+          "name": "lowerHem",
+          "ascendingLabel": "Z-A",
+          "label": "下摆",
+          "sortable": true,
+          "type": "string",
+          "descendingLabel": "A-Z"
+        },
+        {
+          "sortDirection": "ascending",
+          "hidden": false,
+          "sortIndex": 0,
+          "name": "sleeveLength",
+          "ascendingLabel": "Z-A",
+          "label": "袖长",
+          "sortable": true,
+          "type": "string",
+          "descendingLabel": "A-Z"
+        },
+        {
+          "sortDirection": "ascending",
+          "hidden": false,
+          "sortIndex": 0,
+          "name": "sleeveWidth",
+          "ascendingLabel": "Z-A",
+          "label": "袖肥",
+          "sortable": true,
+          "type": "string",
+          "descendingLabel": "A-Z"
+        },
+        {
+          "sortDirection": "ascending",
+          "hidden": false,
+          "sortIndex": 0,
+          "name": "sleeveOpening",
+          "ascendingLabel": "Z-A",
+          "label": "袖口",
+          "sortable": true,
+          "type": "string",
+          "descendingLabel": "A-Z"
+        },
+        {
+          "sortDirection": "ascending",
+          "hidden": false,
+          "sortIndex": 0,
+          "name": "armhole",
+          "ascendingLabel": "Z-A",
+          "label": "袖笼深",
+          "sortable": true,
+          "type": "string",
+          "descendingLabel": "A-Z"
+        },
+        {
+          "sortDirection": "ascending",
+          "hidden": false,
+          "sortIndex": 0,
+          "name": "backCrossCollar",
+          "ascendingLabel": "Z-A",
+          "label": "后横领",
+          "sortable": true,
+          "type": "string",
+          "descendingLabel": "A-Z"
+        },
+        {
+          "sortDirection": "ascending",
+          "hidden": false,
+          "sortIndex": 0,
+          "name": "frontBandCollar",
+          "ascendingLabel": "Z-A",
+          "label": "前直领",
+          "sortable": true,
+          "type": "string",
+          "descendingLabel": "A-Z"
+        },
+        {
+          "sortDirection": "ascending",
+          "hidden": false,
+          "sortIndex": 0,
+          "name": "collarLength",
+          "ascendingLabel": "Z-A",
+          "label": "领长",
+          "sortable": true,
+          "type": "string",
+          "descendingLabel": "A-Z"
+        },
+        {
+          "sortDirection": "ascending",
+          "hidden": false,
+          "sortIndex": 0,
+          "name": "pocketLength",
+          "ascendingLabel": "Z-A",
+          "label": "袋长",
+          "sortable": true,
+          "type": "string",
+          "descendingLabel": "A-Z"
+        },
+        {
+          "sortDirection": "ascending",
+          "hidden": false,
+          "sortIndex": 0,
+          "name": "zipperLength",
+          "ascendingLabel": "Z-A",
+          "label": "拉链长",
+          "sortable": true,
+          "type": "string",
+          "descendingLabel": "A-Z"
+        },
+        {
+          "sortDirection": "ascending",
+          "hidden": false,
+          "sortIndex": 0,
+          "name": "beltLength",
+          "ascendingLabel": "Z-A",
+          "label": "腰带长",
+          "sortable": true,
+          "type": "string",
+          "descendingLabel": "A-Z"
+        },
+        {
+          "sortDirection": "ascending",
+          "hidden": false,
+          "sortIndex": 0,
+          "name": "hoodHeight",
+          "ascendingLabel": "Z-A",
+          "label": "帽高",
+          "sortable": true,
+          "type": "string",
+          "descendingLabel": "A-Z"
+        },
+        {
+          "sortDirection": "ascending",
+          "hidden": false,
+          "sortIndex": 0,
+          "name": "hoodWidth",
+          "ascendingLabel": "Z-A",
+          "label": "帽宽",
+          "sortable": true,
+          "type": "string",
+          "descendingLabel": "A-Z"
+        },
+        {
+          "sortDirection": "ascending",
+          "hidden": false,
+          "sortIndex": 0,
+          "name": "outseam",
+          "ascendingLabel": "Z-A",
+          "label": "裤长",
+          "sortable": true,
+          "type": "string",
+          "descendingLabel": "A-Z"
+        },
+        {
+          "sortDirection": "ascending",
+          "hidden": false,
+          "sortIndex": 0,
+          "name": "hipline",
+          "ascendingLabel": "Z-A",
+          "label": "臀围",
+          "sortable": true,
+          "type": "string",
+          "descendingLabel": "A-Z"
+        },
+        {
+          "sortDirection": "ascending",
+          "hidden": false,
+          "sortIndex": 0,
+          "name": "midRange",
+          "ascendingLabel": "Z-A",
+          "label": "中裆",
+          "sortable": true,
+          "type": "string",
+          "descendingLabel": "A-Z"
+        },
+        {
+          "sortDirection": "ascending",
+          "hidden": false,
+          "sortIndex": 0,
+          "name": "rise",
+          "ascendingLabel": "Z-A",
+          "label": "直裆",
+          "sortable": true,
+          "type": "string",
+          "descendingLabel": "A-Z"
+        },
+        {
+          "sortDirection": "ascending",
+          "hidden": false,
+          "sortIndex": 0,
+          "name": "legOpening",
+          "ascendingLabel": "Z-A",
+          "label": "脚口",
+          "sortable": true,
+          "type": "string",
+          "descendingLabel": "A-Z"
+        },
+        {
+          "sortDirection": "ascending",
+          "hidden": false,
+          "sortIndex": 0,
+          "name": "skirtLength",
+          "ascendingLabel": "Z-A",
+          "label": "裙长",
+          "sortable": true,
+          "type": "string",
+          "descendingLabel": "A-Z"
+        },
+        {
+          "sortDirection": "ascending",
+          "hidden": false,
+          "sortIndex": 0,
+          "name": "backWidth",
+          "ascendingLabel": "Z-A",
+          "label": "后背宽",
+          "sortable": true,
+          "type": "string",
+          "descendingLabel": "A-Z"
+        },
+        {
+          "sortDirection": "ascending",
+          "hidden": false,
+          "sortIndex": 0,
+          "name": "frontCrossCollar",
+          "ascendingLabel": "Z-A",
+          "label": "前横领",
+          "sortable": true,
+          "type": "string",
+          "descendingLabel": "A-Z"
+        },
+        {
+          "sortDirection": "ascending",
+          "hidden": false,
+          "sortIndex": 0,
+          "name": "frontCross",
+          "ascendingLabel": "Z-A",
+          "label": "前胸宽",
+          "sortable": true,
+          "type": "string",
+          "descendingLabel": "A-Z"
+        }
+      ],
+      "scope": "everything",
+      "limit": 10,
+      "orderBy": [],
+      "page": 1
+    }
+}
+]

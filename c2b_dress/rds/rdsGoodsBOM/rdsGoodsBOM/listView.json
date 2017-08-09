@@ -1,0 +1,115 @@
+[{
+	"id": "011NFXW2R0800",
+    "type": "listView",
+    "appid": "rds",
+    "parentid": "011MNWYA80800",
+    "name": "rdsGoodsBOM",
+    "objectName": "rdsGoodsBOM",
+    "description": "成品BOM列表描述",
+    "label": "成品BOM列表",
+    "layoutJson": {
+        "whereCondition": {},
+        "columns": [
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "bomCode",
+                "ascendingLabel": "Z-A",
+                "label": "BOM编码",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "bomCode"
+            },
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "styleIDLabel",
+                "ascendingLabel": "Z-A",
+                "label": "款式",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "styleIDLabel"
+            },
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "goodsName",
+                "ascendingLabel": "Z-A",
+                "label": "成品名称",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "goodsName"
+            }, 
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "colorIDLabel",
+                "ascendingLabel": "Z-A",
+                "label": "颜色",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "colorIDLabel"
+            },   
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "price",
+                "ascendingLabel": "Z-A",
+                "label": "价格",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "price"
+            },   
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "isStandardLabel",
+                "ascendingLabel": "Z-A",
+                "label": "是否标准",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "isStandardLabel"
+            },              
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "versions",
+                "ascendingLabel": "Z-A",
+                "label": "版本",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "versions"
+            },
+            {
+                "sortDirection": "ascending",
+                "hidden": false,
+                "sortIndex": 0,
+                "name": "statusLabel",
+                "ascendingLabel": "Z-A",
+                "label": "数据状态",
+                "sortable": true,
+                "type": "string",
+                "descendingLabel": "A-Z",
+                "selectListItem": "statusLabel"
+            }
+        ],
+        "scope": "everything",
+        "limit": 10,
+        "orderBy": [],
+        "page": 1
+    }
+}]

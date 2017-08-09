@@ -1,0 +1,199 @@
+[
+    {
+		"id":"01263EKVR0800",
+        "type": "formLayout",
+        "appid": "rds",
+        "parentid": "011NY8RP00800",
+        "name": "rdsBOMFormLayout",
+        "objectName": "rdsBOM",
+        "layoutJson":{
+                "gutterType": "two-row",
+                "inline": false,
+                "labelPosition": "top",
+                "configId": "ce8b5a5b-7bbc-46b4-a952-172f6ef875ae",
+                "entityId": "011NY8RP00800",
+                "entity": "rdsBOM",
+                "ColumnLayout": [
+                    {
+                        "heading": "",
+                        "useCollapsibleSection": false,
+                        "layoutRows": [
+                            {
+                                "layoutItems": [                                   
+                                    {
+                                        "componentId": "lineNum",
+                                        "componentTitle": "行项目号",
+                                        "componentName": "lineNum",
+                                        "tag": "MetaInput",
+                                        "config": {
+                                            "formRules": [
+                                                {
+                                                    "trigger": "blur",
+                                                    "message": "请输入行项目号",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "options": []
+                                        }
+                                    },
+                                    {
+                                        "componentId": "bomCategory",
+                                        "componentTitle": "BOM品类",
+                                        "componentName": "bomCategory",
+                                        "tag": "MetaInput",
+                                        "config": {
+                                            "formRules": [
+                                            	{
+                                                    "trigger": "blur",
+                                                    "message": "请输入BOM品类",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "isArea": false,
+                                            "icon": ""
+                                        }
+                                    }
+                                ],
+                                "numItems": 2
+                            },
+                            {
+                                "layoutItems": [                                   
+                                    {
+                                        "componentId": "moduleID",
+                                        "componentTitle": "模块",
+                                        "componentName": "moduleID",
+                                        "tag": "MetaRelatedSelect",
+                                        "config": {
+                                            "formRules": [
+                                                {
+                                                    "trigger": "blur",
+                                                    "message": "请输入模块",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "options": []
+                                        }
+                                    },
+                                    {
+                                        "componentId": "elementid",
+                                        "componentTitle": "设计元素",
+                                        "componentName": "elementid",
+                                        "tag": "MetaRelatedSelect",
+                                        "config": {
+                                            "formRules": [
+                                            	{
+                                                    "trigger": "blur",
+                                                    "message": "请输入设计元素",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "isArea": false,
+                                            "icon": ""
+                                        }
+                                    }
+                                ],
+                                "numItems": 2
+                            },
+                            {
+                                "layoutItems": [                                   
+                                    {
+                                        "componentId": "elementQTY",
+                                        "componentTitle": "设计元素数量",
+                                        "componentName": "elementQTY",
+                                        "tag": "MetaInputNumber",
+                                        "config": {
+                                            "formRules": [
+                                                {
+                                                    "trigger": "blur",
+                                                    "message": "请输入设计元素数量",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "options": []
+                                        }
+                                    },
+                                    {
+                                        "componentId": "materialID",
+                                        "componentTitle": "物料",
+                                        "componentName": "materialID",
+                                        "tag": "MetaRelatedSelect",
+                                        "config": {
+                                            "formRules": [
+                                            	{
+                                                    "trigger": "blur",
+                                                    "message": "请输入物料",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "isArea": false,
+                                            "icon": ""
+                                        }
+                                    }
+                                ],
+                                "numItems": 2
+                            },
+                            {
+                                "layoutItems": [                                   
+                                    {
+                                        "componentId": "consumption",
+                                        "componentTitle": "用量",
+                                        "componentName": "consumption",
+                                        "tag": "MetaInputDecimals",
+                                        "config": {
+                                            "formRules": [
+                                                {
+                                                    "trigger": "blur",
+                                                    "message": "请输入用量",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "options": []
+                                        }
+                                    },
+                                    {
+                                        "componentId": "unit",
+                                        "componentTitle": "单位",
+                                        "componentName": "unit",
+                                        "tag": "MetaSelect",
+                                        "config": {
+                                            "formRules": [
+                                            	{
+                                                    "trigger": "blur",
+                                                    "message": "请输入单位",
+                                                    "required": true
+                                                }
+                                            ],
+                                            "isArea": false,
+                                            "icon": ""
+                                        }
+                                    }
+                                ],
+                                "numItems": 2
+                            },
+                            {
+                                "layoutItems": [                                   
+                                    {
+                                        "componentId": "replaceable",
+                                        "componentTitle": "允许替换",
+                                        "componentName": "replaceable",
+                                        "tag": "MetaSelect",
+                                        "config": {
+                                            "formRules": [
+                                                {
+                                                    "trigger": "blur",
+                                                    "message": "请输入允许替换",
+                                                    "required": true
+                                                }
+                                            ]                                  
+                                        }
+                                    }
+                                ],
+                                "numItems": 2
+                            }                          
+                        ]
+                    }                   
+                ]
+            },
+        "description": "BOM清单FormLayOut定义"
+	}
+]

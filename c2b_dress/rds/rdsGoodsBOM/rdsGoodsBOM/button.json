@@ -1,0 +1,73 @@
+[
+    {
+		"id":"011N7QQ3G0800",
+        "type": "button",
+        "appid": "rds",
+        "parentid": "011MNWYA80800",
+        "name": "rdsGoodsBOMButtons",
+        "clientType":"pc",
+    	"layoutType":"grid",
+        "objectName": "rdsGoodsBOM",
+        "layoutJson":{
+        	"configId": "32e3e77e-7d20-4ac0-95f5-52074958023a",
+            "entityId": "011MNWYA80800",
+            "entity": "rdsGoodsBOM",
+            "btns": [
+                    {
+                        "name": "新建",
+                        "type": "new"
+                    },
+                    {
+                        "name": "删除",
+                        "type": "del"
+                    },
+                    {
+                        "columns": [
+                            {
+                                "id": "011N8D6D80800",
+                                "label": "记录状态",
+                                "name": "status",
+                                "objectName": "rdsGoodsBOM",
+                                "type": "metaField"
+                            }
+                        ],
+                        "name": "提交",
+                        "type": "commit",
+                        "value": "1"
+                    }
+                ]
+        },
+        "description": "成品BOMGridButton定义"
+    },
+    {
+		"id":"011NBABDR0800",
+        "type": "button",
+        "appid": "rds",
+        "parentid": "011MNWYA80800",
+        "name": "rdsGoodsBOMDetailButtons",
+        "clientType":"pc",
+    	"layoutType":"detail",
+        "objectName": "rdsGoodsBOM",
+        "layoutJson":{
+        	"configId": "19578402-7401-49c7-a818-2d5d0a13c4c8",
+            "entityId": "011MNWYA80800",
+            "entity": "rdsGoodsBOM",
+            "layoutType":"detail",
+	        "btns": [
+	                    {
+	                        "name": "新建",
+	                        "type": "new"
+	                    },
+	                    {
+	                        "name": "编辑",
+	                        "type": "edit"
+	                    },
+	                    {
+	                        "name": "删除",
+	                        "type": "delete"
+	                    }
+	                ]
+        },
+        "description": "成品BOM详情页Button定义"
+    }
+]

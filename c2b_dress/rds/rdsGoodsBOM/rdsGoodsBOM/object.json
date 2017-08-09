@@ -1,0 +1,37 @@
+[{
+    "id": "011MNWYA80800",
+    "appid": "rds",
+    "type": "metaEntity",
+    "name": "rdsGoodsBOM",
+    "mruEnabled": "true",
+    "updateable": "false",
+    "activateable": "true",
+    "deprecatedAndHidden": "false",
+    "layoutable": "true",
+    "custom": "true",
+    "deletable": "true",
+    "description": "成品BOM主要信息",
+    "replicateable": "false",
+    "undeletable": "false",
+    "label": "成品BOM表",
+    "keyPrefix": "",
+    "searchable": "true",
+    "queryable": "true",
+    "mergeable": "false",
+    "urls": {
+        "layout": "",
+        "searchLayout": "",
+        "compactLayout": "",
+        "listView": "",
+        "action": "",
+        "validate": ""
+    },
+    "createable": "true",
+    "feedEnabled": "",
+    "retrieveable": "true",
+    "customSetting": "true",
+    "category": "user",
+    "labelPlural": "",
+    "triggerable": "true"
+}
+]

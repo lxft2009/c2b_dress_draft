@@ -1,0 +1,35 @@
+﻿[
+	{
+		"objectName": "rdsBOMSpec",
+		"fieldName": "seq",
+		"type": "validate",
+		"appid": "rds",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			}
+		}
+	},
+	{
+		"objectName": "rdsBOMSpec",
+		"fieldName": "specCode",
+		"type": "validate",
+		"appid": "rds",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			}
+		}
+	},
+	{
+		"objectName": "rdsBOMSpec",
+		"fieldName": "specName",
+		"type": "validate",
+		"appid": "rds",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			}
+		}
+	}
+]
