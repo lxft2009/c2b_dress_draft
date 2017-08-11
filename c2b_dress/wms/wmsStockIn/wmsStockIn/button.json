@@ -1,0 +1,59 @@
+[
+    {
+		"id":"0147JAXCG0800",
+        "type": "button",
+        "appid": "wms",
+        "parentid": "0147JAY480800",
+        "name": "wmsStockInWButtons",
+        "clientType":"pc",
+    	"layoutType":"grid",
+        "objectName": "wmsStockIn",
+        "layoutJson":{
+        	"configId": "bc28ccc5-6d91-473b-b503-df9c4b0378ec",
+            "entityId": "0147JAY480800",
+            "entity": "wmsStockIn",
+            "btns": [
+                    {
+                        "name": "新建",
+                        "type": "new"
+                    },
+                    {
+                        "name": "删除",
+                        "type": "del"
+                    }
+                ]
+        },
+        "description": "采购入库GridButton定义"
+    },
+    {
+		"id":"0147JAXJ80800",
+        "type": "button",
+        "appid": "wms",
+        "parentid": "0147JAY480800",
+        "name": "wmsStockInWDetailButtons",
+        "clientType":"pc",
+    	"layoutType":"detail",
+        "objectName": "wmsStockIn",
+        "layoutJson":{
+        	"configId": "ea792593-2030-41f6-ac46-2378ac0b0edd",
+            "entityId": "0147JAY480800",
+            "entity": "wmsStockIn",
+            "layoutType":"detail",
+	        "btns": [
+	                    {
+	                        "name": "新建",
+	                        "type": "new"
+	                    },
+	                    {
+	                        "name": "编辑",
+	                        "type": "edit"
+	                    },
+	                    {
+	                        "name": "删除",
+	                        "type": "delete"
+	                    }
+	                ]
+        },
+        "description": "采购入库detailButton定义"
+    }
+]

@@ -1,0 +1,44 @@
+[
+    {
+    "id": "0148362100800",
+    "type": "listView",
+    "appid": "wms",
+    "parentid": "0148360VG0800",
+    "name": "wmsStockInDetailWListView",
+    "objectName": "wmsStockInDetail",
+    "description": "入库明细列表描述",
+    "label": "入库明细",
+    "layoutJson": {
+        "whereCondition": {},
+        "columns": [          
+            {
+                "hidden": false,
+                "name": "recID",
+                "label": "收货单"
+            }
+                ,
+            {
+                "hidden": false,
+                "name": "remarks",
+                "label": "备注"
+            }
+                ,
+            {
+                "hidden": false,
+                "name": "add_userId",
+                "label": "添加人"
+            }
+                ,
+            {
+                "hidden": false,
+                "name": "add_Date",
+                "label": "添加时间"
+            }
+        ],
+        "scope": "everything",
+        "limit": 10,
+        "orderBy": [],
+        "page": 1
+        }
+    }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "0148362500800",
+    "type": "formLayout",
+    "appid": "wms",
+    "parentid": "0148360VG0800",
+    "name": "wmsStockInDetailWformLayout",
+    "objectName": "wmsStockInDetail",
+    "layoutJson": {
+      "gutterType": "two-row",
+      "inline": false,
+      "labelPosition": "top",
+      "configId": "e8de27bf-14fe-46cd-8cf1-c25f190ec72e",
+      "ColumnLayout": [
+        {
+          "heading": "",
+          "useCollapsibleSection": false,
+          "layoutRows": [
+              {
+
+                "layoutItems": [
+                  {
+                    "componentName": "recID"
+                  }
+                  ,
+                  {
+                    "componentName": "remarks"
+                  }
+              ]
+            }
+              ,
+              {
+
+                "layoutItems": [
+                  {
+                    "componentName": "add_userId"
+                  }
+                  ,
+                 {
+                    "componentName": "add_Date"
+                  } 
+              ]
+            }                    
+          ]
+        }
+      ],
+      "entityId": "0148360VG0800",
+      "entity": "wmsStockInDetail"
+    },
+    "description": "入库明细FormLayOut定义"
+  }
+]

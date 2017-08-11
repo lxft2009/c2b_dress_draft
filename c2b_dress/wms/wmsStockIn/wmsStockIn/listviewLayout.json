@@ -1,0 +1,34 @@
+[
+	{
+	    "id": "0147JB0180800",
+	    "type": "listviewLayout",
+	    "appid": "wms",
+	    "parentid": "0147JAY480800",
+	    "objectName": "wmsStockIn",
+	    "description": "采购入库",
+	    "layoutJson": {
+	    	"entity":"wmsStockIn",
+	        "entityId":"0147JAY480800",
+	        "configId":"bc28ccc5-6d91-473b-b503-df9c4b0378ec",
+	        "label":"列表视图"
+	    },
+	    "category":"listview"
+	},
+	{
+	    "id": "0147JB04G0800",
+	    "type": "listviewLayout",
+	    "appid": "wms",
+	    "parentid": "0147JAY480800",
+	    "objectName": "wmsStockIn",
+	    "description": "settingbutton布局",
+	    "layoutJson": {
+		"label": "列表视图",
+        "parentEntity":"wmsStockIn",
+        "parentEntityId":"0147JAY480800",
+        "configId":"bc28ccc5-6d91-473b-b503-df9c4b0378ec",
+        "entity":"listView",
+        "entityId":"0147JAZSG0800"
+	    },
+	    "category":"setting"
+	}
+]

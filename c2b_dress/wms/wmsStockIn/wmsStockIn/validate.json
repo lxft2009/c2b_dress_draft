@@ -1,0 +1,69 @@
+﻿[
+	{
+		"objectName": "wmsStockIn",
+		"fieldName": "stockInNum",
+		"type": "validate",
+		"appid": "wms",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			}
+		}
+	},
+	{
+		"objectName": "wmsStockIn",
+		"fieldName": "inType",
+		"type": "validate",
+		"appid": "wms",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			}
+		}
+	},
+	{
+		"objectName": "wmsStockIn",
+		"fieldName": "poID",
+		"type": "validate",
+		"appid": "wms",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			}
+		}
+	},
+	{
+		"objectName": "wmsStockIn",
+		"fieldName": "warehouseID",
+		"type": "validate",
+		"appid": "wms",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			}
+		}
+	},
+	{
+		"objectName": "wmsStockIn",
+		"fieldName": "locationID",
+		"type": "validate",
+		"appid": "wms",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			}
+		}
+	},
+	{
+		"objectName": "wmsStockIn",
+		"fieldName": "inDatetime",
+		"type": "validate",
+		"appid": "wms",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			}
+		}
+	}
+	
+]

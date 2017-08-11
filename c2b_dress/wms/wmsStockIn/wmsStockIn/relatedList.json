@@ -1,0 +1,37 @@
+[{
+    "id": "01480GPS80800",
+    "type": "relatedList",
+    "appid": "wms",
+    "parentid": "0147JAY480800",
+    "objectName": "wmsStockIn",
+    "name":"wmsStockInDetailRelatedList",
+    "description": "入库详情页相关子表布局",
+    "layoutJson": {
+    	"layoutType": "tab",
+        "items": [
+        	{
+                "listViewId": "0148362100800",
+                "linkIdName": "parentid",
+                "Editable":true,
+                "buttonSection": {
+                    "configId": "3f1f77ff-c388-482b-9757-5357e98f42d6",
+                    "btns": [
+                        {
+                            "name": "新建",
+                            "type": "new"
+                        }
+                    ],
+                    "entityId": "0148360VG0800",
+                    "entity": "wmsStockInDetail"
+                },
+                "configId": "3f1f77ff-c388-482b-9757-5357e98f42d6",
+                "parentEntity": "wmsStockIn",
+                "parentEntityId": "0147JAY480800",
+                "entity": "wmsStockInDetail",
+                "entityId": "0148360VG0800",
+                "label": "入库明细",
+                "iconClass": "el-icon-star-on"
+            }                   
+        ]
+    }
+}]

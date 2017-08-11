@@ -1,0 +1,53 @@
+[
+  {
+    "id": "0147JB0800800",
+    "type": "searchLayout",
+    "appid": "wms",
+    "parentid": "0147JAY480800",
+    "name": "wmsStockInWSearchLayout",
+    "objectName": "wmsStockIn",
+    "layoutJson": {
+      "configId": "bc28ccc5-6d91-473b-b503-df9c4b0378ec",
+      "entityId": "0147JAY480800",
+      "entity": "wmsStockIn",
+      "columns": [
+          {
+          "name": "stockInNum"
+          }
+          ,
+          {
+          "name": "inType"
+          }
+          ,
+          {
+          "name": "poID"
+          }
+          ,
+          {
+          "name": "warehouseID"
+          }
+          ,
+          {
+          "name": "locationID"
+          }
+          ,
+          {
+          "name": "inDatetime"
+          }
+          ,
+          {
+          "name": "remarks"
+          }
+          ,
+          {
+          "name": "add_userId"
+          }
+          ,
+          {
+          "name": "add_Date"
+          }
+      ]
+    },
+    "description": "采购入库searchLayout定义"
+  }
+]

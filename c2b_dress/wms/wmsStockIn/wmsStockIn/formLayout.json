@@ -1,0 +1,74 @@
+[
+  {
+    "id": "0147JAZX80800",
+    "type": "formLayout",
+    "appid": "wms",
+    "parentid": "0147JAY480800",
+    "name": "wmsStockInWformLayout",
+    "objectName": "wmsStockIn",
+    "layoutJson": {
+      "gutterType": "two-row",
+      "inline": false,
+      "labelPosition": "top",
+      "configId": "ea792593-2030-41f6-ac46-2378ac0b0edd",
+      "ColumnLayout": [
+        {
+          "heading": "",
+          "useCollapsibleSection": false,
+          "layoutRows": [
+              {
+
+                "layoutItems": [
+                  {
+                    "componentName": "stockInNum"
+                  }
+                  ,
+                  {
+                    "componentName": "inType"
+                  }
+              ]
+            }
+              ,
+              {
+
+                "layoutItems": [
+                  {
+                    "componentName": "poID"
+                  }
+                  ,
+                  {
+                    "componentName": "warehouseID"
+                  }
+              ]
+            }
+              ,
+              {
+
+                "layoutItems": [
+                  {
+                    "componentName": "locationID"
+                  }
+                  ,
+                  {
+                    "componentName": "inDatetime"
+                  }
+              ]
+            }
+              ,
+              {
+
+                "layoutItems": [
+                  {
+                    "componentName": "remarks"
+                  }                 
+              ]
+            }           
+          ]
+        }
+      ],
+      "entityId": "0147JAY480800",
+      "entity": "wmsStockIn"
+    },
+    "description": "采购入库FormLayOut定义"
+  }
+]

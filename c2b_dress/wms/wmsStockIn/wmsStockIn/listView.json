@@ -1,0 +1,74 @@
+[
+    {
+    "id": "0147JAZSG0800",
+    "type": "listView",
+    "appid": "wms",
+    "parentid": "0147JAY480800",
+    "name": "wmsStockInWListView",
+    "objectName": "wmsStockIn",
+    "description": "采购入库列表描述",
+    "label": "采购入库",
+    "layoutJson": {
+        "whereCondition": {},
+        "columns": [
+            {
+                "hidden": false,
+                "name": "stockInNum",
+                "label": "入库单号"
+            }
+                ,
+            {
+                "hidden": false,
+                "name": "inType",
+                "label": "入库类别"
+            }
+                ,
+            {
+                "hidden": false,
+                "name": "poID",
+                "label": "采购订单"
+            }
+                ,
+            {
+                "hidden": false,
+                "name": "warehouseID",
+                "label": "仓库"
+            }
+                ,
+            {
+                "hidden": false,
+                "name": "locationID",
+                "label": "库位"
+            }
+                ,
+            {
+                "hidden": false,
+                "name": "inDatetime",
+                "label": "入库时间"
+            }
+                ,
+            {
+                "hidden": false,
+                "name": "remarks",
+                "label": "备注"
+            }
+                ,
+            {
+                "hidden": false,
+                "name": "add_userId",
+                "label": "添加人"
+            }
+                ,
+            {
+                "hidden": false,
+                "name": "add_Date",
+                "label": "添加时间"
+            }
+        ],
+        "scope": "everything",
+        "limit": 10,
+        "orderBy": [],
+        "page": 1
+        }
+    }
+]

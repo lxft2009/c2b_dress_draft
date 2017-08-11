@@ -1,0 +1,16 @@
+[
+    {
+		"id":"0147JB0B80800",
+        "type": "tableLayout",
+        "appid": "wms",
+        "parentid": "0147JAY480800",
+        "name": "wmsStockInWGridLayout",
+        "objectName": "wmsStockIn",
+        "layoutJson": {
+                "configId": "bc28ccc5-6d91-473b-b503-df9c4b0378ec",
+                "entityId": "0147JAY480800",
+                "entity": "wmsStockIn"
+         },
+        "description": "采购入库tableLayout定义"
+    }
+]

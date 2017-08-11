@@ -1,0 +1,13 @@
+﻿[
+	{
+		"objectName": "wmsStockInDetail",
+		"fieldName": "recID",
+		"type": "validate",
+		"appid": "wms",
+		"validateJson": {
+			"required": {
+				"message": "messages.required"
+			}
+		}
+	}
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "0147JAY480800",
+    "appid": "wms",
+    "type": "metaEntity",
+    "name": "wmsStockIn",
+    "mruEnabled": "true",
+    "updateable": "false",
+    "activateable": "true",
+    "deprecatedAndHidden": "false",
+    "layoutable": "true",
+    "custom": "true",
+    "deletable": "true",
+    "description": "入库表",
+    "replicateable": "false",
+    "undeletable": "false",
+    "label": "入库表",
+    "keyPrefix": "",
+    "searchable": "true",
+    "queryable": "true",
+    "mergeable": "false",
+    "urls": {
+      "layout": "",
+      "searchLayout": "",
+      "compactLayout": "",
+      "listView": "",
+      "action": "",
+      "validate": ""
+    },
+    "createable": "true",
+    "feedEnabled": "",
+    "retrieveable": "true",
+    "customSetting": "true",
+    "category": "user",
+    "labelPlural": "",
+    "triggerable": "true"
+  }
+]

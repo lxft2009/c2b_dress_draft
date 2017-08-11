@@ -29,7 +29,7 @@
                 "parentEntityId": "011MNWYA80800",
                 "entity": "rdsBOMSpec",
                 "entityId": "011PBF8QR0800",
-                "label": "BOM规格表",
+                "label": "BOM规格",
                 "iconClass": "el-icon-star-on"
             },
             {
@@ -52,7 +52,7 @@
                 "parentEntityId": "011MNWYA80800",
                 "entity": "rdsBOM",
                 "entityId": "011NY8RP00800",
-                "label": "BOM清单表",
+                "label": "BOM清单",
                 "iconClass": "el-icon-star-on"
             }                    
         ]
